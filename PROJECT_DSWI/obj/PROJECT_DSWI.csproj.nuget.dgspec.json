@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI.csproj": {}
+    "C:\\Users\\alfre\\OneDrive\\Escritorio\\Proyectos V Ciclo\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI.csproj": {
+    "C:\\Users\\alfre\\OneDrive\\Escritorio\\Proyectos V Ciclo\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI.csproj",
+        "projectUniqueName": "C:\\Users\\alfre\\OneDrive\\Escritorio\\Proyectos V Ciclo\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI.csproj",
         "projectName": "PROJECT_DSWI",
-        "projectPath": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI.csproj",
-        "packagesPath": "C:\\Users\\EduardoB\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\PROJECT_DSWI\\PROJECT_DSWI\\obj\\",
+        "projectPath": "C:\\Users\\alfre\\OneDrive\\Escritorio\\Proyectos V Ciclo\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI.csproj",
+        "packagesPath": "C:\\Users\\alfre\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alfre\\OneDrive\\Escritorio\\Proyectos V Ciclo\\PROJECT_DSWI\\PROJECT_DSWI\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\EduardoB\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\alfre\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

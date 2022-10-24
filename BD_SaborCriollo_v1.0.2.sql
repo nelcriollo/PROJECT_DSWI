@@ -82,16 +82,24 @@ descripcion varchar (20) not null
 go
 
 
-
-create table tb_TipoPedido (
-idTipoPedido int primary key,
+create table tb_PrecioDelivery(
+idDelivery int primary key,
 cod_Ubigeo char(8) not null,
+Costo decimal not null
+)
+go
+ALTER TABLE tb_PrecioDelivery ADD CONSTRAINT FK28 FOREIGN KEY (cod_Ubigeo) REFERENCES tb_Ubigeo (cod_Ubigeo) 
+
+
+create table tb_TipoPedido(
+idTipoPedido int primary key,
 descripcion varchar (75) not null,
-Costo money not null
+idDelivery int not null
 )
 go
 
-ALTER TABLE tb_TipoPedido ADD CONSTRAINT FK06 FOREIGN KEY (cod_Ubigeo) REFERENCES tb_Ubigeo (cod_Ubigeo) 
+
+ALTER TABLE tb_TipoPedido ADD CONSTRAINT FK06 FOREIGN KEY (idDelivery) REFERENCES tb_PrecioDelivery (idDelivery) 
 
 
 
@@ -115,8 +123,6 @@ ALTER TABLE tb_Pedido ADD CONSTRAINT FK10 FOREIGN KEY (cod_Ubigeo) REFERENCES tb
 
 
 
-
-
 create table tb_DetallePedido (
 idDetallePedido int primary key identity (1,1),
 idPedido int not null,
@@ -126,11 +132,10 @@ idPrecio int not null,
 )
 go
 
+
 ALTER TABLE tb_DetallePedido ADD CONSTRAINT FK11 FOREIGN KEY (idPedido) REFERENCES tb_Pedido (idPedido) 
 ALTER TABLE tb_DetallePedido ADD CONSTRAINT FK12 FOREIGN KEY (idProducto) REFERENCES tb_Producto (idProducto) 
 ALTER TABLE tb_DetallePedido ADD CONSTRAINT FK13 FOREIGN KEY (idPrecio) REFERENCES tb_Precio (idPrecio) 
-
-
 
 
 create table tb_Local (
@@ -171,8 +176,6 @@ TipoComprobante char(5) primary key,
 descripcion varchar(35) not null
 )
 go
-
-
 
 
 create table tb_ComprobantePago (
@@ -244,9 +247,8 @@ primary key (idPedido,idEmpleado)
 )
 go
 
-ALTER TABLE tb_TomaPedido ADD CONSTRAINT FK16 FOREIGN KEY (idPedido) REFERENCES tb_Pedido (idPedido) 
-ALTER TABLE tb_TomaPedido ADD CONSTRAINT FK17 FOREIGN KEY (idEmpleado) REFERENCES tb_Empleado (idEmpleado) 
-
+ALTER TABLE tb_TomaPedido ADD CONSTRAINT FK26 FOREIGN KEY (idPedido) REFERENCES tb_Pedido (idPedido) 
+ALTER TABLE tb_TomaPedido ADD CONSTRAINT FK27 FOREIGN KEY (idEmpleado) REFERENCES tb_Empleado (idEmpleado) 
 
 
 

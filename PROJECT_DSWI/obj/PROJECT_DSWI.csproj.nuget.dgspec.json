@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alfre\\OneDrive\\Escritorio\\Proyectos V Ciclo\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI.csproj": {}
+    "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alfre\\OneDrive\\Escritorio\\Proyectos V Ciclo\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI.csproj": {
+    "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alfre\\OneDrive\\Escritorio\\Proyectos V Ciclo\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI.csproj",
+        "projectUniqueName": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI.csproj",
         "projectName": "PROJECT_DSWI",
-        "projectPath": "C:\\Users\\alfre\\OneDrive\\Escritorio\\Proyectos V Ciclo\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI.csproj",
-        "packagesPath": "C:\\Users\\alfre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alfre\\OneDrive\\Escritorio\\Proyectos V Ciclo\\PROJECT_DSWI\\PROJECT_DSWI\\obj\\",
+        "projectPath": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI.csproj",
+        "packagesPath": "C:\\Users\\Nelcriollo\\.nuget\\packages\\",
+        "outputPath": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\alfre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Nelcriollo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -43,10 +43,6 @@
             "Microsoft.Data.SqlClient": {
               "target": "Package",
               "version": "[5.0.1, )"
-            },
-            "Newtonsoft.Json": {
-              "target": "Package",
-              "version": "[13.0.1, )"
             }
           },
           "imports": [

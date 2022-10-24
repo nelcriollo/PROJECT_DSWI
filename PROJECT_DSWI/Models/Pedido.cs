@@ -1,13 +1,12 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.Runtime.CompilerServices;
-
 namespace PROJECT_DSWI.Models
 {
     public class Pedido
     {
         public int idPedido { get; set; }
-        public int idCliente { get; set; }
-        public int idTipoPedido { get; set; }
+        [Display(Name = "Cliente"), Required] public int idCliente { get; set; }
+        [Display(Name = "Tipo Pedido"), Required] public int idTipoPedido { get; set; }
         [Display(Name = "Fecha"),Required]public DateTime fechaHoraPedido { get; set; }
         [Display(Name = "Total"), Required] public decimal totalPedido { get; set; }
         [Display(Name = "Método"), Required] public int idMetodoPago { get; set; }

@@ -127,7 +127,7 @@ create table tb_DetallePedido (
 idDetallePedido int primary key identity (1,1),
 idPedido int not null,
 idProducto int not null,
-cantidad decimal not null,
+cantidad int not null,
 idPrecio int not null,
 )
 go

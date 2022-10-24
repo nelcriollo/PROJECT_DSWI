@@ -1,10 +1,10 @@
+/*Eliminar BD*/
 drop database  SABORCRIOLLO
 go
-
+/*Crear BD*/
 create database SABORCRIOLLO
 go
-
-
+/*Usar BD*/
 use SABORCRIOLLO
 go
 
@@ -66,7 +66,7 @@ create table tb_Precio (
 idPrecio int primary key not null,
 idProducto int not null,
 idCategoria int not null,
-precioUnitario money not null
+precioUnitario decimal not null
 )
 go
 
@@ -108,7 +108,7 @@ idPedido int primary key identity (1,1),
 idCliente int not null, 
 idTipoPedido int not null,
 fechaHoraPedido datetime not null,
-totalPedido money not null,
+totalPedido decimal not null,
 idMetodoPago int not null,
 cod_Ubigeo char(8) not null,
 direccionPedido varchar (70),
@@ -127,7 +127,7 @@ create table tb_DetallePedido (
 idDetallePedido int primary key identity (1,1),
 idPedido int not null,
 idProducto int not null,
-cantidad money not null,
+cantidad decimal not null,
 idPrecio int not null,
 )
 go
@@ -183,9 +183,9 @@ TipoComprobante char(5) not null,
 NumComprobante int unique not null,
 idPedido int not null,
 idTipoPedido int not null,
-subtotal money not null,
-igv money not null,
-ImporteTotal money not null,
+subtotal decimal not null,
+igv decimal not null,
+ImporteTotal decimal not null,
 primary key (TipoComprobante,NumComprobante)
 )
 go
@@ -248,13 +248,4 @@ primary key (idPedido,idEmpleado)
 go
 
 ALTER TABLE tb_TomaPedido ADD CONSTRAINT FK26 FOREIGN KEY (idPedido) REFERENCES tb_Pedido (idPedido) 
-ALTER TABLE tb_TomaPedido ADD CONSTRAINT FK27 FOREIGN KEY (idEmpleado) REFERENCES tb_Empleado (idEmpleado) 
-
-
-
-
-
-
-
-
-
+ALTER TABLE tb_TomaPedido ADD CONSTRAINT FK27 FOREIGN KEY (idEmpleado) REFERENCES tb_Empleado (idEmpleado)

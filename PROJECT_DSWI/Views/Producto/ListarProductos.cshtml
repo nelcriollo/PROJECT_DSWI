@@ -3,7 +3,7 @@
 @{
     ViewData["Title"] = "ListarProductos";
 }
-<link href="~/css/estilos.css" rel="stylesheet" />
+<link href="~/css/estilos.css" rel="stylesheet"/>
 <h1>ListarProductos</h1>
 
 <p>
@@ -13,36 +13,23 @@
 
 
 
-<div class="portal">
+<div class="menu">
     @foreach (var item in Model)
     {
-        <div class="registro">
-           <!--   
-            <div class="row">
-                <div class="col-sm-12"></div>
-                <div class="col-sm-12"></div>
-                <div class="col-sm-12"></div>
-                <div class="col-sm-12"></div>
-                <div class="col-sm-12">
-                   
-                </div>
-                        </div>-->
-
+        <div class="producto">
+         
             <div class="row row-cols-1 row-cols-md-2 g-4">
-                <img src="@Url.Content($"~/imagenes/{item.idProducto}.jpg")" class="card-img-top" alt="...">
+                <img src="@Url.Content($"~/imagenes/{item.idProducto}.jpg")" class="card-img-top" alt="..."/>
                 <div class="card-body">
-                    <h6 class="card-title">@Html.DisplayFor(modelItem => item.idProducto)</h6>
                     <h5 class="card-title">@Html.DisplayFor(modelItem => item.nomproducto)</h5>
                     <h5 class="card-title">@Html.DisplayFor(modelItem => item.idCategoria)</h5>
                     <p class="card-text">@Html.DisplayFor(modelItem => item.stock)</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="#" class="btn btn-danger">Seleccionar</a>
                 </div>
             </div>
 
 
         </div>
-
-        
 
     }
 </div>

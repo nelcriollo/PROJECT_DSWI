@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "XRrKyBiky6Z4DROPu6eI/78GnUhtSWTTWBBjSbmampqJ5HbIqfj6R/duz0Ove4Tb5RAXfgVSoeJXX8j9hG69WQ==",
+  "dgSpecHash": "nqlFIWuZhPfBWVlwnMUkRTF04f3RhiVqoZQ9mmtvT4YMPLzHOvVhNTpAx7Dsw3SdchHeOOl46B9iIY1smFDbcw==",
   "success": true,
   "projectFilePath": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Nelcriollo\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Nelcriollo\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
+    "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\bootstrap.5.2.2.nupkg.sha512",
     "C:\\Users\\Nelcriollo\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",
     "C:\\Users\\Nelcriollo\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
     "C:\\Users\\Nelcriollo\\.nuget\\packages\\messagepack.annotations\\2.1.152\\messagepack.annotations.2.1.152.nupkg.sha512",

@@ -2570,11 +2570,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alfre\\OneDrive\\Escritorio\\Proyectos V Ciclo\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI.csproj",
+      "projectUniqueName": "C:\\Users\\alfre\\OneDrive\\Escritorio\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI.csproj",
       "projectName": "PROJECT_DSWI",
-      "projectPath": "C:\\Users\\alfre\\OneDrive\\Escritorio\\Proyectos V Ciclo\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI.csproj",
+      "projectPath": "C:\\Users\\alfre\\OneDrive\\Escritorio\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI.csproj",
       "packagesPath": "C:\\Users\\alfre\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alfre\\OneDrive\\Escritorio\\Proyectos V Ciclo\\PROJECT_DSWI\\PROJECT_DSWI\\obj\\",
+      "outputPath": "C:\\Users\\alfre\\OneDrive\\Escritorio\\PROJECT_DSWI\\PROJECT_DSWI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\alfre\\AppData\\Roaming\\NuGet\\NuGet.Config",

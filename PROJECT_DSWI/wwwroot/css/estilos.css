@@ -1,12 +1,13 @@
-﻿.portal {
+﻿
+.carta {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 10px;
-    row-gap:10px;
-    background-color: salmon;
+    row-gap: 10px;
+    background-color: lightcoral;
 }
 
-.registro {
+.menus {
     min-height: 300px;
     height: auto;
     margin: 1%;

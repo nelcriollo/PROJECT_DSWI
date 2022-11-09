@@ -1,0 +1,42 @@
+﻿@model IEnumerable<PROJECT_DSWI.Models.Producto>
+
+@{
+    ViewData["Title"] = "ListarProductos";
+}
+<link href="~/css/estilos.css" rel="stylesheet"/>
+
+
+
+
+
+
+<div class="container-fluid">
+    <p class="ms-5">
+        <a asp-action="Create">ver Carrito</a>
+    </p>
+    <h1 class="ms-5">Pollos Brasa</h1>
+
+    <div class="row m-0 justify-content-center">
+
+    @foreach (var item in Model)
+    {
+       
+            
+            <div class="card m-3 shadow" style="width: 25rem;">
+                <img src="@Url.Content($"~/imagenes/{item.idProducto}.jpg")" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="col-sm-12 card-title">@Html.DisplayFor(modelItem => item.nomproducto)</h5>
+                    <h5 class="col-sm-12 card-title">@Html.DisplayFor(modelItem => item.idCategoria)</h5>
+                    <p class="col-sm-12 card-text">@Html.DisplayFor(modelItem => item.stock)</p>
+                    <div class="text-center">
+                    <a href="#" class="btn btn-danger text-center ">Seleccionar</a>
+                    </div>
+                </div>
+            </div>
+      
+    
+
+    }
+</div>
+</div>
+

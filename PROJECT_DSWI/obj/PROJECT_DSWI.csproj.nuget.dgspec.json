@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI.csproj": {}
+    "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI.csproj": {
+    "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI.csproj",
+        "projectUniqueName": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI.csproj",
         "projectName": "PROJECT_DSWI",
-        "projectPath": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI.csproj",
+        "projectPath": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI.csproj",
         "packagesPath": "C:\\Users\\EduardoB\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\PROJECT_DSWI\\PROJECT_DSWI\\obj\\",
+        "outputPath": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Jg2L9iMvPGWHUqRPpyEiT47pSXDhUKdwKLGPAFN3MidsSJ+bl3PWLX1mGm3rHnuafwRgx4lVPHXZX0piDFQrOQ==",
+  "dgSpecHash": "wKL9xAftuwkIA1pRp2Gy8AWC1O5K0EcImlPnOc5IbByeTmKqzfBuJACnaQf8RJzsDn8vblFwT/fdYztFW59Xgg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI.csproj",
+  "projectFilePath": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\EduardoB\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\EduardoB\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

@@ -261,9 +261,8 @@ insert tb_Categoria values('Bebidas')
 insert tb_Categoria values('Entradas')
 insert tb_Categoria values('Piqueos')
 insert tb_Categoria values('Big Box')
-insert tb_Categoria values('Combox')
+insert tb_Categoria values('Combos')
 SELECT * FROM tb_Categoria;
-
 
 
 insert tb_Producto values('1 Pollo Brasa Sabor Criollo + Salsas',1,150,'Pollo Brasa Sabor Criollo')

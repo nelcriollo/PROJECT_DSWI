@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "pHyEFUQ7EhJ4QNpCH5AsEwEZTEBxTVOFBJ3XTG69z6U=",
+  "Hash": "DkaeYTIHJuuniDrqP5TJlusRhDzsgafVAxopuB+vDOA=",
   "Source": "PROJECT_DSWI",
   "BasePath": "_content/PROJECT_DSWI",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "PROJECT_DSWI\\wwwroot",
       "Source": "PROJECT_DSWI",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\EduardoB\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "css/bootstrap.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css"
+      "OriginalItemSpec": "C:\\Users\\EduardoB\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\EduardoB\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css.map",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "css/bootstrap.css.map",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css.map"
+      "OriginalItemSpec": "C:\\Users\\EduardoB\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\EduardoB\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "css/bootstrap.min.css",
       "AssetKind": "All",
@@ -65,13 +65,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css"
+      "OriginalItemSpec": "C:\\Users\\EduardoB\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\EduardoB\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css.map",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -82,13 +82,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\EduardoB\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\EduardoB\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -99,13 +99,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css"
+      "OriginalItemSpec": "C:\\Users\\EduardoB\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\EduardoB\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css.map",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -116,13 +116,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css.map"
+      "OriginalItemSpec": "C:\\Users\\EduardoB\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\EduardoB\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -133,13 +133,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css"
+      "OriginalItemSpec": "C:\\Users\\EduardoB\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\EduardoB\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -150,13 +150,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\EduardoB\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\EduardoB\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -167,13 +167,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css"
+      "OriginalItemSpec": "C:\\Users\\EduardoB\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\EduardoB\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css.map",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -184,13 +184,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css.map"
+      "OriginalItemSpec": "C:\\Users\\EduardoB\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\EduardoB\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -201,13 +201,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css"
+      "OriginalItemSpec": "C:\\Users\\EduardoB\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\EduardoB\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css.map",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -218,13 +218,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\EduardoB\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\EduardoB\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.css",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -235,13 +235,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.css"
+      "OriginalItemSpec": "C:\\Users\\EduardoB\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\EduardoB\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -252,13 +252,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.css.map"
+      "OriginalItemSpec": "C:\\Users\\EduardoB\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\EduardoB\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -269,13 +269,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.min.css"
+      "OriginalItemSpec": "C:\\Users\\EduardoB\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\EduardoB\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -286,13 +286,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\EduardoB\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\EduardoB\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -303,13 +303,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css"
+      "OriginalItemSpec": "C:\\Users\\EduardoB\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\EduardoB\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css.map",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -320,13 +320,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css.map"
+      "OriginalItemSpec": "C:\\Users\\EduardoB\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\EduardoB\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -337,13 +337,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css"
+      "OriginalItemSpec": "C:\\Users\\EduardoB\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\EduardoB\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -354,13 +354,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\EduardoB\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\EduardoB\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -371,13 +371,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css"
+      "OriginalItemSpec": "C:\\Users\\EduardoB\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\EduardoB\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -388,13 +388,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css.map"
+      "OriginalItemSpec": "C:\\Users\\EduardoB\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\EduardoB\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -405,13 +405,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css"
+      "OriginalItemSpec": "C:\\Users\\EduardoB\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\EduardoB\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -422,13 +422,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\EduardoB\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\EduardoB\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -439,13 +439,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css"
+      "OriginalItemSpec": "C:\\Users\\EduardoB\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\EduardoB\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css.map",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -456,13 +456,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css.map"
+      "OriginalItemSpec": "C:\\Users\\EduardoB\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\EduardoB\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -473,13 +473,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css"
+      "OriginalItemSpec": "C:\\Users\\EduardoB\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\EduardoB\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -490,13 +490,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\EduardoB\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\EduardoB\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -507,13 +507,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css"
+      "OriginalItemSpec": "C:\\Users\\EduardoB\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\EduardoB\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -524,13 +524,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css.map"
+      "OriginalItemSpec": "C:\\Users\\EduardoB\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\EduardoB\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -541,13 +541,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css"
+      "OriginalItemSpec": "C:\\Users\\EduardoB\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\EduardoB\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -558,13 +558,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\EduardoB\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\EduardoB\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -575,13 +575,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js"
+      "OriginalItemSpec": "C:\\Users\\EduardoB\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\EduardoB\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js.map",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -592,13 +592,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js.map"
+      "OriginalItemSpec": "C:\\Users\\EduardoB\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\EduardoB\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.min.js",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -609,13 +609,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.min.js"
+      "OriginalItemSpec": "C:\\Users\\EduardoB\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\EduardoB\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -626,13 +626,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.min.js.map"
+      "OriginalItemSpec": "C:\\Users\\EduardoB\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\EduardoB\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.js",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -643,13 +643,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.js"
+      "OriginalItemSpec": "C:\\Users\\EduardoB\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\EduardoB\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.js.map",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -660,13 +660,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.js.map"
+      "OriginalItemSpec": "C:\\Users\\EduardoB\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\EduardoB\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.min.js",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -677,13 +677,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.min.js"
+      "OriginalItemSpec": "C:\\Users\\EduardoB\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\EduardoB\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.min.js.map",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -694,13 +694,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.min.js.map"
+      "OriginalItemSpec": "C:\\Users\\EduardoB\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\EduardoB\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "js/bootstrap.js",
       "AssetKind": "All",
@@ -711,13 +711,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js"
+      "OriginalItemSpec": "C:\\Users\\EduardoB\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\EduardoB\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js.map",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "js/bootstrap.js.map",
       "AssetKind": "All",
@@ -728,13 +728,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js.map"
+      "OriginalItemSpec": "C:\\Users\\EduardoB\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\EduardoB\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.min.js",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "js/bootstrap.min.js",
       "AssetKind": "All",
@@ -745,13 +745,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.min.js"
+      "OriginalItemSpec": "C:\\Users\\EduardoB\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\EduardoB\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.min.js.map",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -762,13 +762,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nelcriollo\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.min.js.map"
+      "OriginalItemSpec": "C:\\Users\\EduardoB\\.nuget\\packages\\bootstrap\\5.2.2\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\obj\\Debug\\net6.0\\scopedcss\\bundle\\PROJECT_DSWI.styles.css",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\obj\\Debug\\net6.0\\scopedcss\\bundle\\PROJECT_DSWI.styles.css",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "PROJECT_DSWI.styles.css",
       "AssetKind": "All",
@@ -779,13 +779,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\obj\\Debug\\net6.0\\scopedcss\\bundle\\PROJECT_DSWI.styles.css"
+      "OriginalItemSpec": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\obj\\Debug\\net6.0\\scopedcss\\bundle\\PROJECT_DSWI.styles.css"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\PROJECT_DSWI.bundle.scp.css",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\PROJECT_DSWI.bundle.scp.css",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "PROJECT_DSWI.bundle.scp.css",
       "AssetKind": "All",
@@ -796,13 +796,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\PROJECT_DSWI.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\PROJECT_DSWI.bundle.scp.css"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\css\\estilos.css",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\css\\estilos.css",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "css/estilos.css",
       "AssetKind": "All",
@@ -816,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\css\\estilos.css"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\css\\site.css",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -833,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\favicon.ico",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -850,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\1.jpg",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\1.jpg",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "imagenes/1.jpg",
       "AssetKind": "All",
@@ -867,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\1.jpg"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\10.jpg",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\10.jpg",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "imagenes/10.jpg",
       "AssetKind": "All",
@@ -884,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\10.jpg"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\11.jpg",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\11.jpg",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "imagenes/11.jpg",
       "AssetKind": "All",
@@ -901,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\11.jpg"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\12.jpg",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\12.jpg",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "imagenes/12.jpg",
       "AssetKind": "All",
@@ -918,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\12.jpg"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\13.jpg",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\13.jpg",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "imagenes/13.jpg",
       "AssetKind": "All",
@@ -935,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\13.jpg"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\14.jpg",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\14.jpg",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "imagenes/14.jpg",
       "AssetKind": "All",
@@ -952,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\14.jpg"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\15.jpg",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\15.jpg",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "imagenes/15.jpg",
       "AssetKind": "All",
@@ -969,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\15.jpg"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\16.jpg",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\16.jpg",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "imagenes/16.jpg",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\16.jpg"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\17.jpg",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\17.jpg",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "imagenes/17.jpg",
       "AssetKind": "All",
@@ -1003,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\17.jpg"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\18.jpg",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\18.jpg",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "imagenes/18.jpg",
       "AssetKind": "All",
@@ -1020,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\18.jpg"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\19.jpg",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\19.jpg",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "imagenes/19.jpg",
       "AssetKind": "All",
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\19.jpg"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\2.jpg",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\2.jpg",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "imagenes/2.jpg",
       "AssetKind": "All",
@@ -1054,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\2.jpg"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\20.jpg",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\20.jpg",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "imagenes/20.jpg",
       "AssetKind": "All",
@@ -1071,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\20.jpg"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\21.jpg",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\21.jpg",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "imagenes/21.jpg",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\21.jpg"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\22.jpg",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\22.jpg",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "imagenes/22.jpg",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\22.jpg"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\23.jpg",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\23.jpg",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "imagenes/23.jpg",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\23.jpg"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\24.jpg",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\24.jpg",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "imagenes/24.jpg",
       "AssetKind": "All",
@@ -1139,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\24.jpg"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\25.jpg",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\25.jpg",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "imagenes/25.jpg",
       "AssetKind": "All",
@@ -1156,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\25.jpg"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\26.jpg",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\26.jpg",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "imagenes/26.jpg",
       "AssetKind": "All",
@@ -1173,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\26.jpg"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\27.jpg",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\27.jpg",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "imagenes/27.jpg",
       "AssetKind": "All",
@@ -1190,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\27.jpg"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\28.jpg",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\28.jpg",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "imagenes/28.jpg",
       "AssetKind": "All",
@@ -1207,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\28.jpg"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\29.jpg",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\29.jpg",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "imagenes/29.jpg",
       "AssetKind": "All",
@@ -1224,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\29.jpg"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\3.jpg",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\3.jpg",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "imagenes/3.jpg",
       "AssetKind": "All",
@@ -1241,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\3.jpg"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\30.jpg",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\30.jpg",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "imagenes/30.jpg",
       "AssetKind": "All",
@@ -1258,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\30.jpg"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\31.jpg",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\31.jpg",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "imagenes/31.jpg",
       "AssetKind": "All",
@@ -1275,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\31.jpg"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\32.jpg",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\32.jpg",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "imagenes/32.jpg",
       "AssetKind": "All",
@@ -1292,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\32.jpg"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\33.jpg",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\33.jpg",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "imagenes/33.jpg",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\33.jpg"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\34.jpg",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\34.jpg",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "imagenes/34.jpg",
       "AssetKind": "All",
@@ -1326,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\34.jpg"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\35.jpg",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\35.jpg",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "imagenes/35.jpg",
       "AssetKind": "All",
@@ -1343,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\35.jpg"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\36.jpg",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\36.jpg",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "imagenes/36.jpg",
       "AssetKind": "All",
@@ -1360,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\36.jpg"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\37.jpg",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\37.jpg",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "imagenes/37.jpg",
       "AssetKind": "All",
@@ -1377,10 +1377,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\37.jpg"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\38.jpg",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\38.jpg",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "imagenes/38.jpg",
       "AssetKind": "All",
@@ -1394,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\38.jpg"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\39.jpg",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\39.jpg",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "imagenes/39.jpg",
       "AssetKind": "All",
@@ -1411,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\39.jpg"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\4.jpg",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\4.jpg",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "imagenes/4.jpg",
       "AssetKind": "All",
@@ -1428,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\4.jpg"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\40.jpg",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\40.jpg",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "imagenes/40.jpg",
       "AssetKind": "All",
@@ -1445,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\40.jpg"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\41.jpg",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\41.jpg",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "imagenes/41.jpg",
       "AssetKind": "All",
@@ -1462,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\41.jpg"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\42.jpg",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\42.jpg",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "imagenes/42.jpg",
       "AssetKind": "All",
@@ -1479,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\42.jpg"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\43.jpg",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\43.jpg",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "imagenes/43.jpg",
       "AssetKind": "All",
@@ -1496,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\43.jpg"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\44.jpg",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\44.jpg",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "imagenes/44.jpg",
       "AssetKind": "All",
@@ -1513,10 +1513,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\44.jpg"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\45.jpg",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\45.jpg",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "imagenes/45.jpg",
       "AssetKind": "All",
@@ -1530,10 +1530,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\45.jpg"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\46.jpg",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\46.jpg",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "imagenes/46.jpg",
       "AssetKind": "All",
@@ -1547,10 +1547,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\46.jpg"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\47.jpg",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\47.jpg",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "imagenes/47.jpg",
       "AssetKind": "All",
@@ -1564,10 +1564,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\47.jpg"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\48.jpg",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\48.jpg",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "imagenes/48.jpg",
       "AssetKind": "All",
@@ -1581,10 +1581,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\48.jpg"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\49.jpg",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\49.jpg",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "imagenes/49.jpg",
       "AssetKind": "All",
@@ -1598,10 +1598,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\49.jpg"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\5.jpg",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\5.jpg",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "imagenes/5.jpg",
       "AssetKind": "All",
@@ -1615,10 +1615,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\5.jpg"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\50.jpg",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\50.jpg",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "imagenes/50.jpg",
       "AssetKind": "All",
@@ -1632,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\50.jpg"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\51.jpg",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\51.jpg",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "imagenes/51.jpg",
       "AssetKind": "All",
@@ -1649,10 +1649,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\51.jpg"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\52.jpg",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\52.jpg",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "imagenes/52.jpg",
       "AssetKind": "All",
@@ -1666,10 +1666,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\52.jpg"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\53.jpg",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\53.jpg",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "imagenes/53.jpg",
       "AssetKind": "All",
@@ -1683,10 +1683,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\53.jpg"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\54.jpg",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\54.jpg",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "imagenes/54.jpg",
       "AssetKind": "All",
@@ -1700,10 +1700,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\54.jpg"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\55.jpg",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\55.jpg",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "imagenes/55.jpg",
       "AssetKind": "All",
@@ -1717,10 +1717,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\55.jpg"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\56.jpg",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\56.jpg",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "imagenes/56.jpg",
       "AssetKind": "All",
@@ -1734,10 +1734,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\56.jpg"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\57.jpg",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\57.jpg",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "imagenes/57.jpg",
       "AssetKind": "All",
@@ -1751,10 +1751,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\57.jpg"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\58.jpg",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\58.jpg",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "imagenes/58.jpg",
       "AssetKind": "All",
@@ -1768,10 +1768,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\58.jpg"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\59.jpg",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\59.jpg",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "imagenes/59.jpg",
       "AssetKind": "All",
@@ -1785,10 +1785,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\59.jpg"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\6.jpg",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\6.jpg",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "imagenes/6.jpg",
       "AssetKind": "All",
@@ -1802,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\6.jpg"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\60.jpg",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\60.jpg",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "imagenes/60.jpg",
       "AssetKind": "All",
@@ -1819,10 +1819,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\60.jpg"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\61.jpg",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\61.jpg",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "imagenes/61.jpg",
       "AssetKind": "All",
@@ -1836,10 +1836,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\61.jpg"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\62.jpg",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\62.jpg",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "imagenes/62.jpg",
       "AssetKind": "All",
@@ -1853,10 +1853,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\62.jpg"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\63.jpg",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\63.jpg",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "imagenes/63.jpg",
       "AssetKind": "All",
@@ -1870,10 +1870,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\63.jpg"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\64.jpg",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\64.jpg",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "imagenes/64.jpg",
       "AssetKind": "All",
@@ -1887,10 +1887,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\64.jpg"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\65.jpg",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\65.jpg",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "imagenes/65.jpg",
       "AssetKind": "All",
@@ -1904,10 +1904,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\65.jpg"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\66.jpg",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\66.jpg",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "imagenes/66.jpg",
       "AssetKind": "All",
@@ -1921,10 +1921,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\66.jpg"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\67.jpg",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\67.jpg",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "imagenes/67.jpg",
       "AssetKind": "All",
@@ -1938,10 +1938,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\67.jpg"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\68.jpg",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\68.jpg",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "imagenes/68.jpg",
       "AssetKind": "All",
@@ -1955,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\68.jpg"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\69.jpg",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\69.jpg",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "imagenes/69.jpg",
       "AssetKind": "All",
@@ -1972,10 +1972,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\69.jpg"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\7.jpg",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\7.jpg",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "imagenes/7.jpg",
       "AssetKind": "All",
@@ -1989,10 +1989,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\7.jpg"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\70.jpg",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\70.jpg",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "imagenes/70.jpg",
       "AssetKind": "All",
@@ -2006,10 +2006,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\70.jpg"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\71.jpg",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\71.jpg",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "imagenes/71.jpg",
       "AssetKind": "All",
@@ -2023,10 +2023,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\71.jpg"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\72.jpg",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\72.jpg",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "imagenes/72.jpg",
       "AssetKind": "All",
@@ -2040,10 +2040,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\72.jpg"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\73.jpg",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\73.jpg",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "imagenes/73.jpg",
       "AssetKind": "All",
@@ -2057,10 +2057,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\73.jpg"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\74.jpg",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\74.jpg",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "imagenes/74.jpg",
       "AssetKind": "All",
@@ -2074,10 +2074,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\74.jpg"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\75.jpg",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\75.jpg",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "imagenes/75.jpg",
       "AssetKind": "All",
@@ -2091,10 +2091,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\75.jpg"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\76.jpg",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\76.jpg",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "imagenes/76.jpg",
       "AssetKind": "All",
@@ -2108,10 +2108,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\76.jpg"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\77.jpg",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\77.jpg",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "imagenes/77.jpg",
       "AssetKind": "All",
@@ -2125,10 +2125,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\77.jpg"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\8.jpg",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\8.jpg",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "imagenes/8.jpg",
       "AssetKind": "All",
@@ -2142,10 +2142,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\8.jpg"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\9.jpg",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\imagenes\\9.jpg",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "imagenes/9.jpg",
       "AssetKind": "All",
@@ -2159,10 +2159,10 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\9.jpg"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\js\\site.js",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -2176,10 +2176,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -2193,10 +2193,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -2210,10 +2210,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -2227,10 +2227,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -2244,10 +2244,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -2261,10 +2261,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -2278,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -2295,10 +2295,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -2312,10 +2312,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -2329,10 +2329,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -2346,10 +2346,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -2363,10 +2363,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -2380,10 +2380,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -2397,10 +2397,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -2414,10 +2414,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -2431,10 +2431,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -2448,10 +2448,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -2465,10 +2465,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -2482,10 +2482,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -2499,10 +2499,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -2516,10 +2516,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -2533,10 +2533,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -2550,10 +2550,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -2567,10 +2567,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -2584,10 +2584,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -2601,10 +2601,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -2618,10 +2618,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -2635,10 +2635,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -2652,10 +2652,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -2669,10 +2669,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -2686,10 +2686,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -2703,10 +2703,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -2720,10 +2720,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -2737,10 +2737,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -2754,10 +2754,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -2771,10 +2771,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -2788,10 +2788,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -2805,10 +2805,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -2822,10 +2822,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -2839,10 +2839,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -2856,10 +2856,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -2873,10 +2873,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -2890,10 +2890,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -2907,10 +2907,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -2924,10 +2924,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -2941,10 +2941,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -2958,10 +2958,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -2975,10 +2975,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -2992,10 +2992,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -3009,10 +3009,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -3026,10 +3026,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -3043,10 +3043,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -3060,10 +3060,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -3077,10 +3077,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -3094,10 +3094,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -3111,10 +3111,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -3128,10 +3128,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "PROJECT_DSWI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\2022-PROYECTOS_FINALES_VARIOS\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\EduardoB\\Desktop\\Cibertec\\Ciclo 05\\Proyectos\\DSWI\\PROJECT_DSWI\\PROJECT_DSWI\\wwwroot\\",
       "BasePath": "_content/PROJECT_DSWI",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",

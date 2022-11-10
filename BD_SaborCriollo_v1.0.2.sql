@@ -235,7 +235,10 @@ insert tb_Categoria values('Combos')
 SELECT * FROM tb_Categoria;
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> d726cf72f626697418dd2ef0329b2d518c7f0021
 insert tb_Producto values('Pollo Brasa Sabor Criollo','1 Pollo Brasa Sabor Criollo + Salsas',1,150)
 insert tb_Producto values('Pollo Brasa SB con Papas y Ensalada','1 Pollo Brasa Sabor Criollo, 1 Papa Crocantita Familiar, 1 Ensalada Fresca Familiar, Salsas',1,150)
 insert tb_Producto values('Pollo Brasa SB con Acomp Familiar y Ensalada','1 Pollo Brasa Sabor Criollo, 1 Acompañamiento Familiar, 1 Ensalada Fresca Familiar, Salsas',1,150)
@@ -246,6 +249,7 @@ insert tb_Producto values('1/4 Brasa SB con Papas y Ensalada','1/4 Brasa Brasa S
 insert tb_Producto values('1/4 Brasa SB con Papas','1/4 Brasa Brasa Sabor Criollo, 1 Papa Crocantita Personal, Salsas',1,150)
 insert tb_Producto values('1/4 Brasa SB con Acomp y Ensalada','1/4 Brasa Brasa Sabor Criollo, 1 Acompañamiento Personal, 1 Ensalada Fresca Personal, Salsas',1,150)
 insert tb_Producto values('Pollo Brasa SB con 4 Acomp Personal y Ensalada','1 Pollo Brasa Brasa Sabor Criollo, 4 Acompañamientos Personal, 1 Ensalada Fresca Familiar, Salsas',1,150)
+<<<<<<< HEAD
 insert tb_Producto values('Pechuga Parrillera','Filete de pechuga marinada con salsa parrillera especial + acompañamiento personal y ensaladita al plato a elegir',1,150)
 insert tb_Producto values('Pollo Brasa SB con Papas','1 Pollo Brasa Brasa Sabor Criollo, 1 Papa Crocantita Familiar, Salsas',1,150)
 SELECT idProducto, nomPrducto,descripcion,idCategoria,stock FROM tb_Producto
@@ -279,3 +283,9 @@ as
 									@cantidadPersonas,
 									@observacion)
 go
+=======
+insert tb_Producto values('Pechuga Parrillera','Filete de pechuga marinada + acompañamiento personal y ensaladita al plato a elegir',1,150)
+insert tb_Producto values('Pollo Brasa SB con Papas','1 Pollo Brasa Brasa Sabor Criollo, 1 Papa Crocantita Familiar, Salsas',1,150)
+SELECT * from tb_Producto
+go
+>>>>>>> d726cf72f626697418dd2ef0329b2d518c7f0021

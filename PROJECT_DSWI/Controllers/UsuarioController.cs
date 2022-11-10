@@ -6,9 +6,21 @@ using PROJECT_DSWI.Models;
 namespace PROJECT_DSWI.Controllers
 {
     public class UsuarioController : Controller
-    {
-        public IActionResult Index()
+
+      
+   {
+        IUsuario _iusuarios;
+
+        public UsuarioController()
         {
+            _iusuarios = new UsuarioDAO();
+        }
+
+
+        public IActionResult ListarUsuarios()
+        {
+
+            IEnumerable<Usuario> lists = _iusuarios.listarUsuarios();
             return View();
         }
     }

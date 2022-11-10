@@ -20,8 +20,8 @@ namespace PROJECT_DSWI.Controllers
         public IActionResult ListarUsuarios()
         {
 
-            IEnumerable<Usuario> lists = _iusuarios.listarUsuarios();
-            return View();
+            IEnumerable<Usuario> listUsu = _iusuarios.listarUsuarios();
+            return View(listUsu);
         }
     }
 }

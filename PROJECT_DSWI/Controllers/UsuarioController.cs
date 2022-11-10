@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,9 +8,15 @@ using PROJECT_DSWI.Models;
 using System.Data.SqlClient;
 using System.Configuration;
 
+using PROJECT_DSWI.DAO;
+using PROJECT_DSWI.DAO.DI;
+using PROJECT_DSWI.Models;
+
+
 namespace PROJECT_DSWI.Controllers
 {
     public class UsuarioController : Controller
+
     {
         string cadena = ConfigurationManager.ConnectionStrings["cn"].ConnectionString;
 
@@ -99,6 +106,25 @@ namespace PROJECT_DSWI.Controllers
 
         }
 
+
+
+
+      
+   
+        IUsuario _iusuarios;
+
+        public UsuarioController()
+        {
+            _iusuarios = new UsuarioDAO();
+        }
+
+
+        public IActionResult ListarUsuarios()
+        {
+
+            IEnumerable<Usuario> lists = _iusuarios.listarUsuarios();
+            return View();
+        }
 
     }
 }

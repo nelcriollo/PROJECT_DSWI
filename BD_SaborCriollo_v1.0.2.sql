@@ -275,7 +275,297 @@ insert tb_Producto values('1/4 Brasa SB con Papas y Ensalada','1/4 Brasa Brasa S
 insert tb_Producto values('1/4 Brasa SB con Papas','1/4 Brasa Brasa Sabor Criollo, 1 Papa Crocantita Personal, Salsas',1,150)
 insert tb_Producto values('1/4 Brasa SB con Acomp y Ensalada','1/4 Brasa Brasa Sabor Criollo, 1 Acompañamiento Personal, 1 Ensalada Fresca Personal, Salsas',1,150)
 insert tb_Producto values('Pollo Brasa SB con 4 Acomp Personal y Ensalada','1 Pollo Brasa Brasa Sabor Criollo, 4 Acompañamientos Personal, 1 Ensalada Fresca Familiar, Salsas',1,150)
-insert tb_Producto values('Pechuga Parrillera','Filete de pechuga marinada con salsa parrillera especial + acompañamiento personal y ensaladita al plato a elegir',1,150)
+insert tb_Producto values('Pechuga Parrillera','Filete de pechuga marinada con salsa parrillera  + acompañamiento personal ',1,150)
 insert tb_Producto values('Pollo Brasa SB con Papas','1 Pollo Brasa Brasa Sabor Criollo, 1 Papa Crocantita Familiar, Salsas',1,150)
 SELECT * from tb_Producto
 go
+
+-------------PROCEDURE USUARIO------------------
+
+create or alter procedure usp_Usuario_Registrar(
+@correo varchar (100),
+@clave varchar (20),
+@Registro bit output,
+@Mensaje varchar (50) output
+)
+as
+begin
+if (not exists(select * from tb_Usuario where correo = @correo))
+begin
+		insert into tb_Usuario (correo,clave) values (@correo,@clave)
+		set @Registro =1
+		set @Mensaje = 'Usuario Registrado con Exito'
+	end
+	else
+	begin 
+			set @Registro = 0
+			set @Mensaje = 'Correo ya existe'
+	end
+end
+go
+
+------------------------------------------------
+create or alter procedure usp_Usuario_Validar(
+@correo varchar (100),
+@clave varchar (50)
+)
+as 
+begin
+	if (exists (select *from tb_Usuario where correo = @correo and clave = @clave))
+		select idUsuario from tb_Usuario where correo = @correo and clave = @clave
+		else
+		select  '0'
+end
+go
+
+
+create or alter procedure usp_Usuario_Actualizar(
+@idUsuario int,
+@nombre varchar (30),
+@apellido varchar (30),
+@telefono char (15),
+@correo varchar (55),
+@clave varchar (100)
+)
+as
+
+ 
+begin
+	UPDATE tb_Usuario 
+		set nombre = @nombre,
+		apellido = @apellido,
+		telefono = @telefono,
+		correo = @correo,
+		clave = @clave
+		where idUsuario = @idUsuario
+end
+go
+
+create or alter procedure usp_Usuario_Eliminar
+@idUsuario int
+as
+	delete from tb_Usuario where idUsuario = @idUsuario;
+go
+
+
+-----////////////////////--------
+----PROCEDURE EMPLEADO----
+----/////////////////////--------
+
+create or alter procedure usp_Empleado_Listar
+as
+begin
+		select * from tb_Empleado
+end;
+go
+
+------------------------------
+create or alter PROCEDURE usp_Empleado_Registrar
+(
+	@nombre varchar(30),
+	@apellido varchar(45),
+	@correo varchar (60),
+	@telefono char(15),
+	@idTipoDocumento int,
+	@documento char(8),
+	@idCargo INT,
+	@cod_Ubigeo char(8),
+	@direccion varchar (75),
+	@idLocal int
+)
+AS
+BEGIN
+
+	DECLARE @NuevoId INT;
+	SET @NuevoId = (SELECT ISNULL(MAX(idEmpleado), 0) FROM tb_Empleado) + 1
+	
+	INSERT tb_Empleado
+	(
+	    nombre ,
+		apellido ,
+		correo ,
+		telefono ,
+		idTipoDocumento ,
+		documento ,
+		idCargo ,
+		cod_Ubigeo ,
+		direccion ,
+		idLocal 
+	)
+	VALUES
+	(   @nombre ,
+		@apellido ,
+		@correo ,
+		@telefono ,
+		@idTipoDocumento ,
+		@documento ,
+		@idCargo ,
+		@cod_Ubigeo ,
+		@direccion ,
+		@idLocal   
+	    )
+
+	SELECT @NuevoId
+END
+go
+---------------------------------
+create or ALTER PROCEDURE usp_Empleado_Actualizar
+(
+	@idEmpleado int ,
+	@nombre varchar(30),
+	@apellido varchar(45),
+	@correo varchar (60),
+	@telefono char(15),
+	@idTipoDocumento int,
+	@documento char(8),
+	@idCargo INT,
+	@cod_Ubigeo char(8),
+	@direccion varchar (75),
+	@idLocal int
+)
+AS
+BEGIN
+
+UPDATE tb_Empleado
+SET     nombre =@nombre ,
+		apellido=@apellido ,
+		correo=@correo ,
+		telefono=@telefono ,
+		idTipoDocumento=@idTipoDocumento ,
+		documento=@documento ,
+		idCargo=@idCargo ,
+		cod_Ubigeo=@cod_Ubigeo ,
+		direccion=@direccion ,
+		idLocal=@idLocal
+WHERE idEmpleado = @idEmpleado
+
+END
+go
+
+create or ALTER PROCEDURE usp_Empleado_Eliminar
+(
+	@idEmpleado INT
+)
+AS
+BEGIN
+
+	DELETE FROM tb_Empleado
+	WHERE idEmpleado = @idEmpleado
+
+END
+
+go
+
+-----//////////////////////////////--------
+----PROCEDURE COMPROBANTE DE PAGO----
+----//////////////////////////////--------
+
+create or alter procedure usp_ComprobantePago_Listar
+as
+begin
+		select * from tb_ComprobantePago
+end;
+go
+
+-------------------------------------------
+create or ALTER PROCEDURE usp_ComprobantePago_Eliminar
+(
+	@NumComprobante INT
+)
+AS
+BEGIN
+
+	DELETE FROM tb_ComprobantePago
+	WHERE NumComprobante = @NumComprobante
+
+END
+go
+
+--------------------------------------------------------
+
+-----//////////////////////////////--------
+----PROCEDURE TOMA PEDIDO----
+----//////////////////////////////--------
+
+create or alter procedure usp_TomaPedido_Listar
+as
+begin
+		select * from tb_TomaPedido
+end;
+go
+
+--------------------------------------------
+
+create or ALTER PROCEDURE usp_TomaPedido_Eliminar
+(
+	@idPedido INT
+)
+AS
+BEGIN
+
+	DELETE FROM tb_TomaPedido
+	WHERE idPedido = @idPedido
+
+END
+go
+
+
+-----//////////////////////////////--------
+----PROCEDURE LOCAL----
+----//////////////////////////////--------
+
+create or alter procedure usp_Local_Listar
+as
+begin
+		select * from tb_Local
+end;
+go
+
+-----//////////////////////////////--------
+----PROCEDURE UBIGEO----
+----//////////////////////////////--------
+
+create or alter procedure usp_Ubigeo_Listar
+as
+begin
+		select * from tb_Ubigeo
+end;
+go
+
+-----//////////////////////////////--------
+----PROCEDURE PRECIO DELIVERY----
+----//////////////////////////////--------
+
+create or alter procedure usp_PrecioDelivery_Listar
+as
+begin
+		select * from tb_PrecioDelivery
+end;
+go
+
+-----//////////////////////////////--------
+----PROCEDURE TIPO COMPROBANTE----
+----//////////////////////////////--------
+
+create or alter procedure usp_TipoComprobante_Listar
+as
+begin
+		select * from tb_TipoComprobante
+end;
+go
+
+-----//////////////////////////////--------
+----PROCEDURE TIPO PEDIDO----
+----//////////////////////////////--------
+
+create or alter procedure usp_TipoPedido_Listar
+as
+begin
+		select * from tb_TipoPedido
+end;
+go
+
+
+
+
+

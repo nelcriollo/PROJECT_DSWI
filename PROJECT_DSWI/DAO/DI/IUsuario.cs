@@ -6,7 +6,7 @@ namespace PROJECT_DSWI.DAO.DI
     {
 
         IEnumerable<Usuario> listarUsuarios();
-        string RegistrarUsuario(Usuario reg);
+         string RegistrarUsuario(Usuario reg);
         string ActualizarUsuario(Usuario reg);
     }
 }

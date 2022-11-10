@@ -51,7 +51,16 @@ namespace PROJECT_DSWI.DAO
             }
             return listaUsua;
         }
-        
+
+        string IUsuario.ActualizarUsuario(Usuario reg)
+        {
+            throw new NotImplementedException();
+        }
+
+        string IUsuario.RegistrarUsuario(Usuario reg)
+        {
+            throw new NotImplementedException();
+        }
 
     }
 }

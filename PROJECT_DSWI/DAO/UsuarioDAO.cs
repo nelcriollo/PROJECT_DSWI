@@ -21,7 +21,7 @@ namespace PROJECT_DSWI.DAO
                 cn.getcn.Open();
                 try
                 {
-                    SqlCommand cmd = new SqlCommand("SELECT idProducto, nomPrducto,descripcion,idCategoria,stock FROM tb_Producto", cn.getcn);
+                    SqlCommand cmd = new SqlCommand("SELECT idUsuario, nombre,apellido,telefono,idTipoDocumento,documento,correo,clave FROM tb_Usuario", cn.getcn);
 
                     SqlDataReader dr = cmd.ExecuteReader();
 
@@ -29,11 +29,14 @@ namespace PROJECT_DSWI.DAO
                     {
                         listaUsua.Add(new Usuario()
                         {
-                            idProducto = dr.GetInt32(0),
-                            nomproducto = dr.GetString(1),
-                            descripcion = dr.GetString(2),
-                            idCategoria = dr.GetInt32(3),
-                            stock = dr.GetInt32(4),
+                            idUsuario = dr.GetInt32(0),
+                            nombre = dr.GetString(1),
+                            apellido = dr.GetString(2),
+                            telefono = dr.GetString(3),
+                            idTipoDocumento = dr.GetInt32(4),
+                            documento = dr.GetString(5),
+                            correo = dr.GetString(6),
+                            clave = dr.GetString(7),
 
                         });
 
@@ -48,7 +51,16 @@ namespace PROJECT_DSWI.DAO
             }
             return listaUsua;
         }
-        
+
+        string IUsuario.ActualizarUsuario(Usuario reg)
+        {
+            throw new NotImplementedException();
+        }
+
+        string IUsuario.RegistrarUsuario(Usuario reg)
+        {
+            throw new NotImplementedException();
+        }
 
     }
 }

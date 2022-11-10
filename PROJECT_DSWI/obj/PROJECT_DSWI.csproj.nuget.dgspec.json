@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\franq\\Desktop\\PROYECTO_DSW1\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI.csproj": {}
+    "C:\\Users\\Jorge Chavez Gue\\Documents\\5TO CICLO\\DESARROLLO DE SERVICIOS WEB I\\PROYECTO_DSW\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\franq\\Desktop\\PROYECTO_DSW1\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI.csproj": {
+    "C:\\Users\\Jorge Chavez Gue\\Documents\\5TO CICLO\\DESARROLLO DE SERVICIOS WEB I\\PROYECTO_DSW\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\franq\\Desktop\\PROYECTO_DSW1\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI.csproj",
+        "projectUniqueName": "C:\\Users\\Jorge Chavez Gue\\Documents\\5TO CICLO\\DESARROLLO DE SERVICIOS WEB I\\PROYECTO_DSW\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI.csproj",
         "projectName": "PROJECT_DSWI",
-        "projectPath": "C:\\Users\\franq\\Desktop\\PROYECTO_DSW1\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI.csproj",
-        "packagesPath": "C:\\Users\\franq\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\franq\\Desktop\\PROYECTO_DSW1\\PROJECT_DSWI\\PROJECT_DSWI\\obj\\",
+        "projectPath": "C:\\Users\\Jorge Chavez Gue\\Documents\\5TO CICLO\\DESARROLLO DE SERVICIOS WEB I\\PROYECTO_DSW\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI.csproj",
+        "packagesPath": "C:\\Users\\Jorge Chavez Gue\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jorge Chavez Gue\\Documents\\5TO CICLO\\DESARROLLO DE SERVICIOS WEB I\\PROYECTO_DSW\\PROJECT_DSWI\\PROJECT_DSWI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\franq\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jorge Chavez Gue\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,40 +39,17 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "Microsoft.Data.SqlClient": {
-              "target": "Package",
-              "version": "[5.0.1, )"
-            },
-            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
-              "target": "Package",
-              "version": "[6.0.10, )"
-            },
-            "bootstrap": {
-              "target": "Package",
-              "version": "[5.2.2, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

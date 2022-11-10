@@ -21,9 +21,7 @@ idTipoDocumento int primary key,
 descripcion varchar (20) not null
 )
 go
-
-
-
+|
 create table tb_Cliente(
 idCliente int primary key identity (1,1),
 nombre varchar (45) not null,
@@ -34,23 +32,17 @@ idTipoDocumento int not null,
 documento char (8) not null,
 cod_Ubigeo char(8) not null,
 direccion varchar (85) not null
-
 )
 go
 
 ALTER TABLE tb_Cliente ADD CONSTRAINT FK01 FOREIGN KEY (idTipoDocumento) REFERENCES tb_TipoDocumento (idTipoDocumento)
 ALTER TABLE tb_Cliente ADD CONSTRAINT FK02 FOREIGN KEY (cod_Ubigeo) REFERENCES tb_Ubigeo (cod_Ubigeo)
 
-
-
-
 create table tb_Categoria (
 idCategoria int primary key identity (1,1),
 nombre varchar (30)not null
 )
 go
-
-
 
 create table tb_Producto (
 idProducto int primary key identity(1,1),
@@ -63,7 +55,6 @@ go
 
 ALTER TABLE tb_Producto ADD CONSTRAINT FK03 FOREIGN KEY (idCategoria) REFERENCES tb_Categoria (idCategoria) 
 
-
 create table tb_Precio (
 idPrecio int primary key not null,
 idProducto int not null,
@@ -75,14 +66,11 @@ go
 ALTER TABLE tb_Precio ADD CONSTRAINT FK04 FOREIGN KEY (idProducto) REFERENCES tb_Producto (idProducto) 
 ALTER TABLE tb_Precio ADD CONSTRAINT FK05 FOREIGN KEY (idCategoria) REFERENCES tb_Categoria (idCategoria) 
 
-
-
 create table tb_MetodoPago(
 idMetodoPago int primary key,
 descripcion varchar (20) not null
 )
 go
-
 
 create table tb_PrecioDelivery(
 idDelivery int primary key,
@@ -90,8 +78,8 @@ cod_Ubigeo char(8) not null,
 Costo decimal not null
 )
 go
-ALTER TABLE tb_PrecioDelivery ADD CONSTRAINT FK28 FOREIGN KEY (cod_Ubigeo) REFERENCES tb_Ubigeo (cod_Ubigeo) 
 
+ALTER TABLE tb_PrecioDelivery ADD CONSTRAINT FK28 FOREIGN KEY (cod_Ubigeo) REFERENCES tb_Ubigeo (cod_Ubigeo) 
 
 create table tb_TipoPedido(
 idTipoPedido int primary key,
@@ -100,10 +88,7 @@ idDelivery int not null
 )
 go
 
-
 ALTER TABLE tb_TipoPedido ADD CONSTRAINT FK06 FOREIGN KEY (idDelivery) REFERENCES tb_PrecioDelivery (idDelivery) 
-
-
 
 create table tb_Pedido (
 idPedido int primary key identity (1,1),
@@ -123,8 +108,6 @@ ALTER TABLE tb_Pedido ADD CONSTRAINT FK08 FOREIGN KEY (idTipoPedido) REFERENCES 
 ALTER TABLE tb_Pedido ADD CONSTRAINT FK09 FOREIGN KEY (idMetodoPago) REFERENCES tb_MetodoPago (idMetodoPago) 
 ALTER TABLE tb_Pedido ADD CONSTRAINT FK10 FOREIGN KEY (cod_Ubigeo) REFERENCES tb_Ubigeo (cod_Ubigeo) 
 
-
-
 create table tb_DetallePedido (
 idDetallePedido int primary key identity (1,1),
 idPedido int not null,
@@ -134,11 +117,9 @@ idPrecio int not null,
 )
 go
 
-
 ALTER TABLE tb_DetallePedido ADD CONSTRAINT FK11 FOREIGN KEY (idPedido) REFERENCES tb_Pedido (idPedido) 
 ALTER TABLE tb_DetallePedido ADD CONSTRAINT FK12 FOREIGN KEY (idProducto) REFERENCES tb_Producto (idProducto) 
 ALTER TABLE tb_DetallePedido ADD CONSTRAINT FK13 FOREIGN KEY (idPrecio) REFERENCES tb_Precio (idPrecio) 
-
 
 create table tb_Local (
 idLocal int primary key,
@@ -151,7 +132,6 @@ horarioAtencion datetime
 go
 
 ALTER TABLE tb_Local ADD CONSTRAINT FK14 FOREIGN KEY (cod_Ubigeo) REFERENCES tb_Ubigeo (cod_Ubigeo) 
-
 
 create table tb_Reserva (
 idReserva int primary key identity (1,1),
@@ -171,14 +151,11 @@ go
 
 ALTER TABLE tb_Reserva ADD CONSTRAINT FK15 FOREIGN KEY (idLocal) REFERENCES tb_Local (idLocal) 
 
-
-
 create table tb_TipoComprobante (
 TipoComprobante char(5) primary key,
 descripcion varchar(35) not null
 )
 go
-
 
 create table tb_ComprobantePago (
 TipoComprobante char(5) not null,
@@ -196,8 +173,6 @@ ALTER TABLE tb_ComprobantePago ADD CONSTRAINT FK18 FOREIGN KEY (TipoComprobante)
 ALTER TABLE tb_ComprobantePago ADD CONSTRAINT FK19 FOREIGN KEY (idPedido) REFERENCES tb_Pedido (idPedido) 
 ALTER TABLE tb_ComprobantePago ADD CONSTRAINT FK20 FOREIGN KEY (idTipoPedido) REFERENCES tb_TipoPedido (idTipoPedido) 
 
-
-
 create  table tb_Usuario(
 idUsuario int primary key identity (1,1),
 nombre varchar (30) not null,
@@ -211,13 +186,11 @@ go
 
 ALTER TABLE tb_Usuario ADD CONSTRAINT FK21 FOREIGN KEY (idTipoDocumento) REFERENCES tb_TipoDocumento (idTipoDocumento) 
 
-
 create table tb_Cargo (
 idCargo int primary key identity (1,1),
 descripcion varchar(20) not null
 )
 go
-
 
 create table tb_Empleado (
 idEmpleado int primary key ,
@@ -234,13 +207,10 @@ idLocal int not null
 ) 
 go
 
-
 ALTER TABLE tb_Empleado ADD CONSTRAINT FK22 FOREIGN KEY (idTipoDocumento) REFERENCES tb_TipoDocumento (idTipoDocumento) 
 ALTER TABLE tb_Empleado ADD CONSTRAINT FK23 FOREIGN KEY (idCargo) REFERENCES tb_Cargo (idCargo) 
 ALTER TABLE tb_Empleado ADD CONSTRAINT FK24 FOREIGN KEY (cod_Ubigeo) REFERENCES tb_Ubigeo (cod_Ubigeo) 
 ALTER TABLE tb_Empleado ADD CONSTRAINT FK25 FOREIGN KEY (idLocal) REFERENCES tb_Local (idLocal) 
-
-
 
 create table tb_TomaPedido (
 idPedido int not null,
@@ -265,6 +235,10 @@ insert tb_Categoria values('Combos')
 SELECT * FROM tb_Categoria;
 
 
+<<<<<<< HEAD
+
+=======
+>>>>>>> d726cf72f626697418dd2ef0329b2d518c7f0021
 insert tb_Producto values('Pollo Brasa Sabor Criollo','1 Pollo Brasa Sabor Criollo + Salsas',1,150)
 insert tb_Producto values('Pollo Brasa SB con Papas y Ensalada','1 Pollo Brasa Sabor Criollo, 1 Papa Crocantita Familiar, 1 Ensalada Fresca Familiar, Salsas',1,150)
 insert tb_Producto values('Pollo Brasa SB con Acomp Familiar y Ensalada','1 Pollo Brasa Sabor Criollo, 1 Acompañamiento Familiar, 1 Ensalada Fresca Familiar, Salsas',1,150)
@@ -275,7 +249,43 @@ insert tb_Producto values('1/4 Brasa SB con Papas y Ensalada','1/4 Brasa Brasa S
 insert tb_Producto values('1/4 Brasa SB con Papas','1/4 Brasa Brasa Sabor Criollo, 1 Papa Crocantita Personal, Salsas',1,150)
 insert tb_Producto values('1/4 Brasa SB con Acomp y Ensalada','1/4 Brasa Brasa Sabor Criollo, 1 Acompañamiento Personal, 1 Ensalada Fresca Personal, Salsas',1,150)
 insert tb_Producto values('Pollo Brasa SB con 4 Acomp Personal y Ensalada','1 Pollo Brasa Brasa Sabor Criollo, 4 Acompañamientos Personal, 1 Ensalada Fresca Familiar, Salsas',1,150)
+<<<<<<< HEAD
 insert tb_Producto values('Pechuga Parrillera','Filete de pechuga marinada con salsa parrillera especial + acompañamiento personal y ensaladita al plato a elegir',1,150)
+insert tb_Producto values('Pollo Brasa SB con Papas','1 Pollo Brasa Brasa Sabor Criollo, 1 Papa Crocantita Familiar, Salsas',1,150)
+SELECT idProducto, nomPrducto,descripcion,idCategoria,stock FROM tb_Producto
+
+
+-- PROCEDIMIENTO ALMACENADO
+
+create proc usp_RegistrarReserva(
+@idReserva int,
+@idLocal int,
+@nombreCliente varchar (45),
+@apellidoCliente varchar (55),
+@documento char (8),
+@correoCliente varchar (75),
+@telefono char (15),
+@fechaReserva date,
+@horaReserva time,
+@cantidadPersonas int,
+@observacion varchar (100)
+)
+as
+	insert into tb_Reserva values(	@idReserva,
+									@idLocal,
+									@nombreCliente,
+									@apellidoCliente,
+									@documento,
+									@correoCliente,
+									@telefono,
+									@fechaReserva,
+									@horaReserva,
+									@cantidadPersonas,
+									@observacion)
+go
+=======
+insert tb_Producto values('Pechuga Parrillera','Filete de pechuga marinada + acompañamiento personal y ensaladita al plato a elegir',1,150)
 insert tb_Producto values('Pollo Brasa SB con Papas','1 Pollo Brasa Brasa Sabor Criollo, 1 Papa Crocantita Familiar, Salsas',1,150)
 SELECT * from tb_Producto
 go
+>>>>>>> d726cf72f626697418dd2ef0329b2d518c7f0021

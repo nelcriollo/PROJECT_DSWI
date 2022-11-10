@@ -9968,11 +9968,16 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\alfre\\.nuget\\packages\\": {}
+=======
+    "C:\\Users\\franq\\.nuget\\packages\\": {}
+>>>>>>> bc223aeb5fbfe98a98c10074ad84d5c6126a532c
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\alfre\\OneDrive\\Escritorio\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI.csproj",
       "projectName": "PROJECT_DSWI",
       "projectPath": "C:\\Users\\alfre\\OneDrive\\Escritorio\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI.csproj",
@@ -9981,6 +9986,16 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\alfre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+      "projectUniqueName": "C:\\Users\\franq\\Desktop\\PROYECTO_DSW1\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI.csproj",
+      "projectName": "PROJECT_DSWI",
+      "projectPath": "C:\\Users\\franq\\Desktop\\PROYECTO_DSW1\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI.csproj",
+      "packagesPath": "C:\\Users\\franq\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\franq\\Desktop\\PROYECTO_DSW1\\PROJECT_DSWI\\PROJECT_DSWI\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\franq\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> bc223aeb5fbfe98a98c10074ad84d5c6126a532c
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -10038,7 +10053,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

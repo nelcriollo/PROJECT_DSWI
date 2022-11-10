@@ -565,6 +565,220 @@ begin
 end;
 go
 
+-- PROCEDIMIENTO ALMACENADO
+
+/*TABLA PEDIDO*/
+-- Listar Pedido
+create procedure usp_Pedido_Listar
+as
+select * from tb_Pedido
+go
+-- Registrar Pedido
+create procedure usp_Pedido_Registrar
+@idCliente int,
+@idTipoPedido int,
+@fechaHoraPedido datetime,
+@totalPedido decimal,
+@idMetodoPago int,
+@cod_Ubigeo char(8),
+@direccionPedido varchar (70),
+@estado int
+as
+insert into tb_Pedido values(	@idCliente,
+								@idTipoPedido,
+								@fechaHoraPedido,
+								@totalPedido,
+								@idMetodoPago,
+								@cod_Ubigeo,
+								@direccionPedido,
+								@estado)
+go
+-- Actualizar Pedido
+create procedure usp_Pedido_Actualizar
+@idCliente int,
+@idTipoPedido int,
+@fechaHoraPedido datetime,
+@totalPedido decimal,
+@idMetodoPago int,
+@cod_Ubigeo char(8),
+@direccionPedido varchar (70),
+@estado int
+as
+update tb_Pedido set	idCliente=@idCliente,
+						idTipoPedido=@idTipoPedido,
+						fechaHoraPedido=@fechaHoraPedido,
+						totalPedido=@totalPedido,
+						idMetodoPago=@idMetodoPago,
+						cod_Ubigeo=@cod_Ubigeo,
+						direccionPedido=@direccionPedido,
+						estado=@estado
+go
+-- Eliminar Pedido
+create procedure usp_Pedido_Eliminar
+@idPedido int
+as
+begin
+	delete from tb_Pedido
+	where idPedido = @idPedido
+end
+go
+
+/*TABLA PRODUCTO*/
+-- Listar Producto
+create procedure usp_Producto_Listartb_Pedido
+as
+select * from tb_Producto
+go
+-- Registrar Producto
+create procedure usp_Producto_Registrar
+@nomPrducto varchar(50),
+@descripcion varchar (100),
+@idCategoria int,
+@stock int
+as
+insert into tb_Producto values(	@nomPrducto,
+								@descripcion,
+								@idCategoria,
+								@stock)
+go
+-- Actualizar Producto
+create procedure usp_Producto_Actualizar
+@nomPrducto varchar(50),
+@descripcion varchar (100),
+@idCategoria int,
+@stock int
+as
+update tb_Producto set	nomPrducto=@nomPrducto,
+						descripcion=@descripcion,
+						idCategoria=@idCategoria,
+						stock=@stock
+go
+-- Eliminar Producto
+create procedure usp_Producto_Eliminar
+@idProducto int
+as
+begin
+	delete from tb_Producto
+	where idProducto = @idProducto
+end
+go
+
+/*TABLA DETALLE PEDIDO*/
+-- Listar Detalle Pedido
+create procedure usp_DetallePedido_Listar
+as
+select * from tb_DetallePedido
+go
+-- Registrar Detalle Pedido
+create procedure usp_DetallePedido_Registrar
+@idPedido int,
+@idProducto int,
+@cantidad int,
+@idPrecio int
+as
+insert into tb_DetallePedido values(	@idPedido,
+										@idProducto,
+										@cantidad,
+										@idPrecio)
+go
+-- Actualizar Detalle Pedido
+create procedure usp_DetallePedido_Actualizar
+@idPedido int,
+@idProducto int,
+@cantidad int,
+@idPrecio int
+as
+update tb_DetallePedido set	idPedido=@idPedido,
+							idProducto=@idProducto,
+							cantidad=@cantidad,
+							idPrecio=@idPrecio
+go
+-- Eliminar Detalle Pedido
+create procedure usp_DetallePedido_Eliminar
+@idDetallePedido int
+as
+begin
+	delete from tb_DetallePedido
+	where idDetallePedido = @idDetallePedido
+end
+go
+/*TABLA RESERVA*/
+-- Listar Reserva
+create procedure usp_Reserva_Listar
+as
+select * from tb_Reserva
+go
+-- Registrar Reserva
+create procedure usp_Reserva_Registrar
+@idLocal int,
+@nombreCliente varchar (45),
+@apellidoCliente varchar (55),
+@documento char (8),
+@correoCliente varchar (75),
+@telefono char (15),
+@fechaReserva datetime,
+@horaReserva time,
+@cantidadPersonas int,
+@observacion varchar (100),
+@estado int
+as
+insert into tb_Reserva values(	@idLocal,
+								@nombreCliente,
+								@apellidoCliente,
+								@documento,
+								@correoCliente,
+								@telefono,
+								@fechaReserva,
+								@horaReserva,
+								@cantidadPersonas,
+								@observacion,
+								@estado)
+go
+-- Eliminar Reserva
+create procedure usp_Reserva_Eliminar
+@idReserva int
+as
+begin
+	delete from tb_Reserva
+	where idReserva = @idReserva
+end
+go
+
+/*TABLA METODO PAGO*/
+-- Listar Metodo Pago
+create procedure usp_MetodoPago_Listar
+as
+select * from tb_MetodoPago
+go
+
+/*TABLA TIPO DOCUMENTO*/
+-- Listar Tipo Documento
+create procedure usp_TipoDocumento_Listar
+as
+select * from tb_TipoDocumento
+go
+
+/*TABLA CARGO*/
+-- Listar Cargo
+create procedure usp_Cargo_Listar
+as
+select * from tb_Cargo
+go
+
+/*TABLA CATEGORIA*/
+-- Listar Categoria
+create procedure usp_Categoria_Listar
+as
+select * from tb_Categoria
+go
+
+/*TABLA PRECIO*/
+-- Listar Precio
+create procedure usp_Precio_Listar
+as
+select * from tb_Precio
+go
+
 
 
 

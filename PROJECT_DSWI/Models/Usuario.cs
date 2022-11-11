@@ -10,5 +10,6 @@
         public string documento { get; set; }
         public string correo { get; set; }
         public string clave { get; set; }
+        public string ConfirmarClave { get; set; }
     }
 }

@@ -1,6 +1,9 @@
 {
   "version": 3,
   "targets": {
+<<<<<<< HEAD
+    "net6.0": {}
+=======
     "net6.0": {
       "Azure.Core/1.24.0": {
         "type": "package",
@@ -10171,29 +10174,35 @@
         "system.xml.xdocument.nuspec"
       ]
     }
+>>>>>>> 06b005b749a44a2c8b8fe75645b858ad8cb09879
   },
+  "libraries": {},
   "projectFileDependencyGroups": {
+<<<<<<< HEAD
+    "net6.0": []
+=======
     "net6.0": [
       "Microsoft.Data.SqlClient >= 5.0.1",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 6.0.10",
       "System.Data.SqlClient >= 4.8.5",
       "bootstrap >= 5.2.2"
     ]
+>>>>>>> 06b005b749a44a2c8b8fe75645b858ad8cb09879
   },
   "packageFolders": {
-    "C:\\Users\\alfre\\.nuget\\packages\\": {}
+    "C:\\Users\\Jorge Chavez Gue\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alfre\\OneDrive\\Escritorio\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI.csproj",
+      "projectUniqueName": "C:\\Users\\Jorge Chavez Gue\\Documents\\5TO CICLO\\DESARROLLO DE SERVICIOS WEB I\\PROYECTO_DSW\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI.csproj",
       "projectName": "PROJECT_DSWI",
-      "projectPath": "C:\\Users\\alfre\\OneDrive\\Escritorio\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI.csproj",
-      "packagesPath": "C:\\Users\\alfre\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alfre\\OneDrive\\Escritorio\\PROJECT_DSWI\\PROJECT_DSWI\\obj\\",
+      "projectPath": "C:\\Users\\Jorge Chavez Gue\\Documents\\5TO CICLO\\DESARROLLO DE SERVICIOS WEB I\\PROYECTO_DSW\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI.csproj",
+      "packagesPath": "C:\\Users\\Jorge Chavez Gue\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Jorge Chavez Gue\\Documents\\5TO CICLO\\DESARROLLO DE SERVICIOS WEB I\\PROYECTO_DSW\\PROJECT_DSWI\\PROJECT_DSWI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\alfre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Jorge Chavez Gue\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -10218,6 +10227,8 @@
     "frameworks": {
       "net6.0": {
         "targetAlias": "net6.0",
+<<<<<<< HEAD
+=======
         "dependencies": {
           "Microsoft.Data.SqlClient": {
             "target": "Package",
@@ -10236,26 +10247,18 @@
             "version": "[5.2.2, )"
           }
         },
+>>>>>>> 06b005b749a44a2c8b8fe75645b858ad8cb09879
         "imports": [
           "net461",
           "net462",
           "net47",
           "net471",
           "net472",
-          "net48",
-          "net481"
+          "net48"
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "frameworkReferences": {
-          "Microsoft.AspNetCore.App": {
-            "privateAssets": "none"
-          },
-          "Microsoft.NETCore.App": {
-            "privateAssets": "all"
-          }
-        },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -50,7 +50,7 @@ namespace PROJECT_DSWI.DAO
             return listaUsua;
         }
 
-            string IUsuario.ActualizarUsuario(Usuario reg)
+        string IUsuario.ActualizarUsuario(Usuario reg)
         {
                 string mensaje = "";
                 ConexionDAO cn = new ConexionDAO();

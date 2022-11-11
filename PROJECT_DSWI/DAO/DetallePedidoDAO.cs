@@ -34,10 +34,7 @@ namespace PROJECT_DSWI.DAO
 
                         });
 
-                    }
-
-                  
-                
+                    }    
                 }
                 catch (Exception)
                 {
@@ -50,12 +47,52 @@ namespace PROJECT_DSWI.DAO
 
         string IDetallePedido.ActualizarDetallePedido(DetallePedido reg)
         {
-            throw new NotImplementedException();
+            string mensaje = "";
+            ConexionDAO cn = new ConexionDAO();
+            using (cn.getcn)
+            {
+                cn.getcn.Open();
+                try
+                {
+                    SqlCommand cmd = new SqlCommand(
+                        "exec usp_DetallePedido_Actualizar  @idDetallePedido, @idPedido,@idProducto,@cantidad,@idPrecio", cn.getcn);
+                    cmd.Parameters.AddWithValue("@idcliente", reg.idDetallePedido);
+                    cmd.Parameters.AddWithValue("@idPedido", reg.idPedido);
+                    cmd.Parameters.AddWithValue("@idProducto", reg.idProducto);
+                    cmd.Parameters.AddWithValue("@cantidad", reg.cantidad);
+                    cmd.Parameters.AddWithValue("@idPrecio", reg.idPrecio);
+                    cmd.ExecuteNonQuery();
+                    mensaje = $"Se ha actualizar el detalle Pedido {reg.idPedido}";
+                }
+                catch (SqlException ex) { mensaje = ex.Message; }
+                finally { cn.getcn.Close(); }
+            }
+            return mensaje;
         }
 
         string IDetallePedido.RegistrarDetallePedido(DetallePedido reg)
         {
-            throw new NotImplementedException();
+            string mensaje = "";
+            ConexionDAO cn = new ConexionDAO();
+            using(cn.getcn)
+            {
+                cn.getcn.Open();
+                try
+                {
+                    SqlCommand cmd = new SqlCommand(
+                        "exec usp_DetallePedido_Registrar  @idDetallePedido, @idPedido,@idProducto,@cantidad,@idPrecio", cn.getcn);
+                    cmd.Parameters.AddWithValue("@idcliente", reg.idDetallePedido);
+                    cmd.Parameters.AddWithValue("@idPedido", reg.idPedido);
+                    cmd.Parameters.AddWithValue("@idProducto", reg.idProducto);
+                    cmd.Parameters.AddWithValue("@cantidad", reg.cantidad);
+                    cmd.Parameters.AddWithValue("@idPrecio", reg.idPrecio);
+                    cmd.ExecuteNonQuery();
+                    mensaje = $"Se ha registrado el detalle Pedido {reg.idPedido}";
+                }
+                catch(SqlException ex) { mensaje = ex.Message; }
+                finally { cn.getcn.Close(); }
+            }
+            return mensaje;
         }
     }
 }

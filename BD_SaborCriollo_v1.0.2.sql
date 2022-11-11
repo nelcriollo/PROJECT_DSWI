@@ -262,8 +262,8 @@ insert tb_Categoria values('Entradas')
 insert tb_Categoria values('Piqueos')
 insert tb_Categoria values('Big Box')
 insert tb_Categoria values('Combos')
-SELECT * FROM tb_Categoria;
 
+SELECT * FROM tb_Categoria;
 
 insert tb_Producto values('Pollo Brasa Sabor Criollo','1 Pollo Brasa Sabor Criollo + Salsas',1,150)
 insert tb_Producto values('Pollo Brasa SB con Papas y Ensalada','1 Pollo Brasa Sabor Criollo, 1 Papa Crocantita Familiar, 1 Ensalada Fresca Familiar, Salsas',1,150)
@@ -277,6 +277,7 @@ insert tb_Producto values('1/4 Brasa SB con Acomp y Ensalada','1/4 Brasa Brasa S
 insert tb_Producto values('Pollo Brasa SB con 4 Acomp Personal y Ensalada','1 Pollo Brasa Brasa Sabor Criollo, 4 Acompañamientos Personal, 1 Ensalada Fresca Familiar, Salsas',1,150)
 insert tb_Producto values('Pechuga Parrillera','Filete de pechuga marinada con salsa parrillera  + acompañamiento personal ',1,150)
 insert tb_Producto values('Pollo Brasa SB con Papas','1 Pollo Brasa Brasa Sabor Criollo, 1 Papa Crocantita Familiar, Salsas',1,150)
+
 SELECT * from tb_Producto
 go
 
@@ -317,7 +318,7 @@ begin
 		select  '0'
 end
 go
-
+----------------------------------------------------------------
 
 create or alter procedure usp_Usuario_Actualizar(
 @idUsuario int,
@@ -340,7 +341,7 @@ begin
 		where idUsuario = @idUsuario
 end
 go
-
+-----------------------------------------------------
 create or alter procedure usp_Usuario_Eliminar
 @idUsuario int
 as
@@ -441,7 +442,7 @@ WHERE idEmpleado = @idEmpleado
 
 END
 go
-
+------------------------------------------------
 create or ALTER PROCEDURE usp_Empleado_Eliminar
 (
 	@idEmpleado INT
@@ -574,7 +575,7 @@ as
 select * from tb_Pedido
 go
 -- Registrar Pedido
-create procedure usp_Pedido_Registrar
+create or alter procedure usp_Pedido_Registrar
 @idCliente int,
 @idTipoPedido int,
 @fechaHoraPedido datetime,
@@ -594,7 +595,7 @@ insert into tb_Pedido values(	@idCliente,
 								@estado)
 go
 -- Actualizar Pedido
-create procedure usp_Pedido_Actualizar
+create or alter procedure usp_Pedido_Actualizar
 @idCliente int,
 @idTipoPedido int,
 @fechaHoraPedido datetime,

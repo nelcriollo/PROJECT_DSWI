@@ -5,14 +5,14 @@ namespace PROJECT_DSWI.DAO
 {
     public class PedidoDAO
     {
-        public IEnumerable<Pedido> pedidos()
+        public IEnumerable<Pedido> listado()
         {
             List<Pedido> temporal = new List<Pedido>();
             ConexionDAO cn = new ConexionDAO();
             using (cn.getcn)
             {
                 cn.getcn.Open();
-                SqlCommand cmd = new SqlCommand();
+                SqlCommand cmd = new SqlCommand("exec usp_Pedido_Listar", cn.getcn);
                 SqlDataReader dr = cmd.ExecuteReader();
 
                 while (dr.Read())

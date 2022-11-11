@@ -7,7 +7,10 @@ go
 /*Usar BD*/
 use SABORCRIOLLO
 go
-
+/*Formato de fecha*/
+Set dateFormat dmy
+go
+----------------------------------------
 create table tb_Ubigeo(
 cod_Ubigeo char(8) primary key not null,
 departamento varchar (45) not null,

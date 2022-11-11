@@ -7,7 +7,7 @@ namespace PROJECT_DSWI.DAO
 {
     public class ClienteDAO :ICliente
     {
-        public IEnumerable<Cliente> clientes()
+        IEnumerable<Cliente> ICliente.listadoCliente()
         {
             List<Cliente> temporal = new List<Cliente>();
             ConexionDAO cn = new ConexionDAO();
@@ -96,6 +96,17 @@ namespace PROJECT_DSWI.DAO
                 finally { cn.getcn.Close(); }
             }
             return mensaje;
+        }
+
+   /*   string ICliente.BuscarCliente(int codigo)
+        {
+            throw new NotImplementedException();
+        }
+   */
+
+        string ICliente.EliminarCliente(Cliente reg)
+        {
+            throw new NotImplementedException();
         }
     }
 }

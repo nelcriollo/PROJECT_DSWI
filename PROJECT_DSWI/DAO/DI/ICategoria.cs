@@ -5,7 +5,7 @@ namespace PROJECT_DSWI.DAO.DI
     public interface ICategoria
     {
 
-        IEnumerable<CategoriaDAO> GetCategorias();
+        IEnumerable<Categoria> GetCategorias();
         string insertCategoria(Categoria reg);
         string ActualizarCategoria(Categoria reg);
 

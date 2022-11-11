@@ -20,7 +20,7 @@ namespace PROJECT_DSWI.DAO
                 cn.getcn.Open();
                 try
                 {
-                    SqlCommand cmd=new SqlCommand("SELECT idProducto, nomPrducto,descripcion,idCategoria,stock FROM tb_Producto", cn.getcn);
+                    SqlCommand cmd=new SqlCommand("SELECT idProducto, nomProducto,descripcion,idCategoria,stock FROM tb_Producto", cn.getcn);
 
                     SqlDataReader dr = cmd.ExecuteReader();
 
@@ -50,14 +50,54 @@ namespace PROJECT_DSWI.DAO
 
         string IProducto.ActualizarProducto(Producto reg)
         {
-            throw new NotImplementedException();
+            string mensaje = "";
+            ConexionDAO cn = new ConexionDAO();
+            using (cn.getcn)
+            {
+                cn.getcn.Open();
+                try
+                {
+                    SqlCommand cmd = new SqlCommand(
+                        "exec usp_Actualizar_Producto @idProducto, @nomPrducto,@descripcion,@idCategoria,@stock", cn.getcn);
+                    cmd.Parameters.AddWithValue("@idProducto", reg.idProducto);
+                    cmd.Parameters.AddWithValue("@nomPrducto", reg.nomproducto);
+                    cmd.Parameters.AddWithValue("@descripcion", reg.descripcion);
+                    cmd.Parameters.AddWithValue("@idCategoria", reg.idCategoria);
+                    cmd.Parameters.AddWithValue("@stock", reg.stock);
+                    cmd.ExecuteNonQuery();
+                    mensaje = $"Se ha actualizar el Usuario {reg.nomproducto}";
+                }
+                catch (SqlException ex) { mensaje = ex.Message; }
+                finally { cn.getcn.Close(); }
+            }
+            return mensaje;
         }
-
-      
+    
 
         string IProducto.RegistrarProducto(Producto reg)
         {
-            throw new NotImplementedException();
+            string mensaje = "";
+            ConexionDAO cn = new ConexionDAO();
+            using (cn.getcn)
+            {
+                cn.getcn.Open();
+                try
+                {
+                    SqlCommand cmd = new SqlCommand(
+                        "exec usp_Registrar_Producto @idProducto, @nomPrducto,@descripcion,@idCategoria,@stock", cn.getcn);
+                    cmd.Parameters.AddWithValue("@idProducto", reg.idProducto);
+                    cmd.Parameters.AddWithValue("@nomPrducto", reg.nomproducto);
+                    cmd.Parameters.AddWithValue("@descripcion", reg.descripcion);
+                    cmd.Parameters.AddWithValue("@idCategoria", reg.idCategoria);
+                    cmd.Parameters.AddWithValue("@stock", reg.stock);
+                    cmd.ExecuteNonQuery();
+                    mensaje = $"Se ha registrado el producto {reg.nomproducto}";
+                }
+                catch (SqlException ex) { mensaje = ex.Message; }
+                finally { cn.getcn.Close(); }
+            }
+            return mensaje;
         }
     }
-}
+    }
+

@@ -1,12 +1,22 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using PROJECT_DSWI.DAO.DI;
+using PROJECT_DSWI.DAO;
+using PROJECT_DSWI.Models;
 
 namespace PROJECT_DSWI.Controllers
 {
     public class PedidoController : Controller
     {
-        public IActionResult Index()
+        IPedido _iapedido;
+        public PedidoController()
         {
-            return View();
+            _iapedido = new PedidoDAO();
+        }
+        public IActionResult ListarPedidos()
+        {
+            IEnumerable<Pedido> lists = _iapedido.listado();
+
+            return View(lists);
         }
     }
 }

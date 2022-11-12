@@ -10176,24 +10176,25 @@
     "net6.0": [
       "Microsoft.Data.SqlClient >= 5.0.1",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 6.0.10",
+      "Newtonsoft.Json >= 13.0.1",
       "System.Data.SqlClient >= 4.8.5",
       "bootstrap >= 5.2.2"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\franq\\.nuget\\packages\\": {}
+    "C:\\Users\\alfre\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\franq\\Desktop\\PROYECTO_DSW1\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI.csproj",
+      "projectUniqueName": "C:\\Users\\alfre\\OneDrive\\Escritorio\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI.csproj",
       "projectName": "PROJECT_DSWI",
-      "projectPath": "C:\\Users\\franq\\Desktop\\PROYECTO_DSW1\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI.csproj",
-      "packagesPath": "C:\\Users\\franq\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\franq\\Desktop\\PROYECTO_DSW1\\PROJECT_DSWI\\PROJECT_DSWI\\obj\\",
+      "projectPath": "C:\\Users\\alfre\\OneDrive\\Escritorio\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI.csproj",
+      "packagesPath": "C:\\Users\\alfre\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\alfre\\OneDrive\\Escritorio\\PROJECT_DSWI\\PROJECT_DSWI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\franq\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\alfre\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -10227,6 +10228,10 @@
             "target": "Package",
             "version": "[6.0.10, )"
           },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[13.0.1, )"
+          },
           "System.Data.SqlClient": {
             "target": "Package",
             "version": "[4.8.5, )"
@@ -10255,7 +10260,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

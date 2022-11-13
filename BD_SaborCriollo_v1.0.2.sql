@@ -256,34 +256,6 @@ ALTER TABLE tb_TomaPedido ADD CONSTRAINT FK26 FOREIGN KEY (idPedido) REFERENCES 
 ALTER TABLE tb_TomaPedido ADD CONSTRAINT FK27 FOREIGN KEY (idEmpleado) REFERENCES tb_Empleado (idEmpleado)
 
 
--- INSERT 
-
-insert tb_Categoria values('Pollos Brasa')
-insert tb_Categoria values('Promociones')
-insert tb_Categoria values('Bebidas')
-insert tb_Categoria values('Entradas')
-insert tb_Categoria values('Piqueos')
-insert tb_Categoria values('Big Box')
-insert tb_Categoria values('Combos')
-
-SELECT * FROM tb_Categoria;
-
-insert tb_Producto values('Pollo Brasa Sabor Criollo','1 Pollo Brasa Sabor Criollo + Salsas',1,150)
-insert tb_Producto values('Pollo Brasa SB con Papas y Ensalada','1 Pollo Brasa Sabor Criollo, 1 Papa Crocantita Familiar, 1 Ensalada Fresca Familiar, Salsas',1,150)
-insert tb_Producto values('Pollo Brasa SB con Acomp Familiar y Ensalada','1 Pollo Brasa Sabor Criollo, 1 Acompañamiento Familiar, 1 Ensalada Fresca Familiar, Salsas',1,150)
-insert tb_Producto values('1/2 Brasa SB con Papas y Ensalada','1/2 Pollo Brasa Sabor Criollo, 1 Papa Crocantita Mediana, 1 Ensalada Fresca Mediana, Salsas',1,150)
-insert tb_Producto values('1/2 Brasa SB con Papas','1/2 Pollo Brasa Sabor Criollo, 1 Papa Crocantita Mediana, Salsas',1,150)
-insert tb_Producto values('1/2 Brasa SB con 2 Acomp y Ensalada','1/2 Pollo Brasa Sabor Criollo, 2 Acompañamientos Personal, 1 Ensalada Fresca Mediana, Salsas',1,150)
-insert tb_Producto values('1/4 Brasa SB con Papas y Ensalada','1/4 Brasa Brasa Sabor Criollo, 1 Papa Crocantita Personal, 1 Ensalada Fresca Personal, Salsas',1,150)
-insert tb_Producto values('1/4 Brasa SB con Papas','1/4 Brasa Brasa Sabor Criollo, 1 Papa Crocantita Personal, Salsas',1,150)
-insert tb_Producto values('1/4 Brasa SB con Acomp y Ensalada','1/4 Brasa Brasa Sabor Criollo, 1 Acompañamiento Personal, 1 Ensalada Fresca Personal, Salsas',1,150)
-insert tb_Producto values('Pollo Brasa SB con 4 Acomp Personal y Ensalada','1 Pollo Brasa Brasa Sabor Criollo, 4 Acompañamientos Personal, 1 Ensalada Fresca Familiar, Salsas',1,150)
-insert tb_Producto values('Pechuga Parrillera','Filete de pechuga marinada con salsa parrillera  + acompañamiento personal ',1,150)
-insert tb_Producto values('Pollo Brasa SB con Papas','1 Pollo Brasa Brasa Sabor Criollo, 1 Papa Crocantita Familiar, Salsas',1,150)
-
-SELECT * from tb_Producto
-go
-
 -------------PROCEDURE USUARIO------------------
 
 create or alter procedure usp_Usuario_Registrar(
@@ -782,8 +754,135 @@ create procedure usp_Precio_Listar
 as
 select * from tb_Precio
 go
-
-
-
-
-
+------------------------------------------------------------------------------------------
+-- inserts
+insert tb_Cargo values ('gerente');
+insert tb_Cargo values ('sub-gerente');
+insert tb_Cargo values ('cajero');
+insert tb_Cargo values ('cocinero');
+insert tb_Cargo values ('mozo');
+select * from tb_Cargo
+----------------------------------------------------------
+insert tb_Categoria values('Pollos Brasa')
+insert tb_Categoria values('Promociones')
+insert tb_Categoria values('Bebidas')
+insert tb_Categoria values('Entradas')
+insert tb_Categoria values('Piqueos')
+insert tb_Categoria values('Big Box')
+insert tb_Categoria values('Combos')
+select * from tb_Categoria
+-------------------------------------------------------------
+insert tb_Ubigeo values ('001','Lima', 'Lima', 'El Agustino');
+insert tb_Ubigeo values ('002','Lima', 'Lima', 'Ate');
+insert tb_Ubigeo values ('003','Lima', 'Lima', 'Santa Anita');
+insert tb_Ubigeo values ('004','Lima', 'Lima', 'Rimac');
+insert tb_Ubigeo values ('005','Lima', 'Lima', 'La Molina');
+select * from tb_Ubigeo
+-------------------------------------------------------------
+insert tb_TipoDocumento values (1,'dni');
+select * from tb_TipoDocumento
+-------------------------------------------------------------
+insert tb_Cliente values ('Ricardo', 'Soto', 'risotono@gmail.com', '943585576', 1, '43756782', '001', 'Calle Los Alhelies 341');
+insert tb_Cliente values ('Rosa', 'Nolazco', 'roosmery12@gmail.com', '966394654', 1, '02453678', '002', 'Calle Los Geranios 221');
+insert tb_Cliente values ('Mario', 'Gonzales', 'profesormariog@gmail.com', '996155597', 1, '46745638', '003', 'Calle Los Docentes 671');
+insert tb_Cliente values ('Enrique', 'Segoviano', 'kikesegoviano@gmail.com', '957889631', 1, '37846324', '004', 'Calle Las Dalias 941');
+insert tb_Cliente values ('Jaime', 'Lertora', 'jaimeler@gmail.com', '966595676', 1, '73289364', '005', 'Calle Las Azucenas 891');
+select * from tb_Cliente
+--------------------------------------------------------------
+insert tb_Producto values('Pollo Brasa Sabor Criollo','1 Pollo Brasa Sabor Criollo + Salsas',1,150)
+insert tb_Producto values('Pollo Brasa SB con Papas y Ensalada','1 Pollo Brasa Sabor Criollo, 1 Papa Crocantita Familiar, 1 Ensalada Fresca Familiar, Salsas',1,150)
+insert tb_Producto values('Pollo Brasa SB con Acomp Familiar y Ensalada','1 Pollo Brasa Sabor Criollo, 1 Acompañamiento Familiar, 1 Ensalada Fresca Familiar, Salsas',1,150)
+insert tb_Producto values('1/2 Brasa SB con Papas y Ensalada','1/2 Pollo Brasa Sabor Criollo, 1 Papa Crocantita Mediana, 1 Ensalada Fresca Mediana, Salsas',1,150)
+insert tb_Producto values('1/2 Brasa SB con Papas','1/2 Pollo Brasa Sabor Criollo, 1 Papa Crocantita Mediana, Salsas',1,150)
+insert tb_Producto values('1/2 Brasa SB con 2 Acomp y Ensalada','1/2 Pollo Brasa Sabor Criollo, 2 Acompañamientos Personal, 1 Ensalada Fresca Mediana, Salsas',1,150)
+insert tb_Producto values('1/4 Brasa SB con Papas y Ensalada','1/4 Brasa Brasa Sabor Criollo, 1 Papa Crocantita Personal, 1 Ensalada Fresca Personal, Salsas',1,150)
+insert tb_Producto values('1/4 Brasa SB con Papas','1/4 Brasa Brasa Sabor Criollo, 1 Papa Crocantita Personal, Salsas',1,150)
+insert tb_Producto values('1/4 Brasa SB con Acomp y Ensalada','1/4 Brasa Brasa Sabor Criollo, 1 Acompañamiento Personal, 1 Ensalada Fresca Personal, Salsas',1,150)
+insert tb_Producto values('Pollo Brasa SB con 4 Acomp Personal y Ensalada','1 Pollo Brasa Brasa Sabor Criollo, 4 Acompañamientos Personal, 1 Ensalada Fresca Familiar, Salsas',1,150)
+insert tb_Producto values('Pechuga Parrillera','Filete de pechuga marinada con salsa parrillera  + acompañamiento personal ',1,150)
+insert tb_Producto values('Pollo Brasa SB con Papas','1 Pollo Brasa Brasa Sabor Criollo, 1 Papa Crocantita Familiar, Salsas',1,150)
+select * from tb_Producto
+-------------------------------------------------------------------------------------------------------------------------
+insert tb_Usuario values ('Alfredo', 'Soto', '977324854', 1, '43594317', 'alfredosotonolazco@gmail.com','cibertec2020');
+insert tb_Usuario values ('Nelson', 'Criollo', '966405630', 1, '45678902', 'nelzoncriollo@gmail.com','cibertec2021');
+insert tb_Usuario values ('Eduardo', 'Rojas', '975410519', 1, '45389210', 'ebrp@gmail.com','cibertec2022');
+select * from tb_Usuario
+-------------------------------------------------------------------------------------------------------------------------------
+insert tb_Local values (1,'Ancash', '001', 'Jiron Ancash 674', '013334567', '2022-11-01 09:00:00');
+insert tb_Local values (2,'Puruchuco', '002', 'Avenida Javier Prado Este 17654', '014565788', '2022-11-02 08:00:00');
+insert tb_Local values (3,'Universal', '003', 'Avenida Los Frutales 335', '013215566', '2022-11-03 08:30:00');
+insert tb_Local values (4,'Tarapaca', '004', 'Avenida Amancaes 874', '015678342', '2022-11-04 09:30:00');
+insert tb_Local values (5,'Rotonda', '005', 'Avenida La Fontana 762', '013567890', '2022-11-05 08:45:00');
+select * from tb_Local
+------------------------------------------------------------------------------------------------------------
+insert tb_Empleado values (100,'Franco', 'Chavez', 'francochavezg@gmail.com', '991108950', 1, '48956782', 1, '001', 'Calle Los Tuetanos 234', 1);
+insert tb_Empleado values (201,'William', 'Chavez', 'jorgeelgrone@gmail.com', '999888777', 1, '42134565', 1, '002', 'Jiron Los Manzanos 564', 2);
+insert tb_Empleado values (302,'Rita', 'Flores', 'lachicafresa@gmail.com', '987666555', 1, '49573290', 1, '003', 'Las Lagunas 567', 3);
+insert tb_Empleado values (403,'Juan', 'Puchuri', 'elsabiondo@gmail.com', '976544433', 1, '46464788', 1, '004', 'Los Ingenieros 678', 4);
+insert tb_Empleado values (504,'Giampiere', 'Leon', 'elagilao@gmail.com', '965333222', 1, '47636345', 1, '005', 'Los Aniñaos 456', 5);
+select * from tb_Empleado
+-------------------------------------------------------------------------
+insert tb_MetodoPago values (1,'tarjeta');
+insert tb_MetodoPago values (2,'efectivo');
+insert tb_MetodoPago values (3,'transferencia');
+insert tb_MetodoPago values (4,'qr');
+insert tb_MetodoPago values (5,'pagoefectivo');
+select * from tb_MetodoPago
+------------------------------------------------------------------------
+insert tb_Precio values (1, 1, 1, 49.90);
+insert tb_Precio values (2, 4, 1, 24.90);
+insert tb_Precio values (3, 7, 1, 12.90);
+insert tb_Precio values (4, 10, 1, 15.90);
+insert tb_Precio values (5, 11, 1, 59.90);
+select * from tb_Precio
+------------------------------------------------------------------------------------
+insert tb_TipoComprobante values (1,'boleta');
+insert tb_TipoComprobante values (2,'factura');
+select * from tb_TipoComprobante
+-------------------------------------------------------------------
+insert tb_PrecioDelivery values (1,'001', 10.90);
+insert tb_PrecioDelivery values (2,'002', 12.90);
+insert tb_PrecioDelivery values (3,'003', 14.90);
+insert tb_PrecioDelivery values (4,'004', 15.90);
+insert tb_PrecioDelivery values (5,'005', 20.90);
+select * from tb_PrecioDelivery
+--------------------------------------------------------------------
+insert tb_TipoPedido values (1,'Entrega máximo en 60 minutos', 1);
+insert tb_TipoPedido values (2,'Entrega máximo en 45 minutos', 2);
+insert tb_TipoPedido values (3,'Entrega máximo en 40 minutos', 3);
+insert tb_TipoPedido values (4,'Entrega máximo en 35 minutos', 4);
+insert tb_TipoPedido values (5,'Entrega máximo en 30 minutos', 5);
+select * from tb_TipoPedido
+------------------------------------------------------------------
+insert tb_Pedido values (1, 1, '2022-09-05 12:30:00', 60.80, 1, '001', 'Calle Los Alhelies 341', 1);
+insert tb_Pedido values (2, 2, '2022-08-04 11:35:00', 37.80, 2, '002', 'Calle Los Geranios 221', 2);
+insert tb_Pedido values (3, 3, '2022-03-03 14:36:00', 27.80, 3, '003', 'Calle Los Docentes 671', 3);
+insert tb_Pedido values (4, 4, '2022-07-02 15:37:00', 31.80, 4, '004', 'Calle Las Dalias 941', 1);
+insert tb_Pedido values (5, 5, '2022-06-01 16:39:00', 80.80, 5, '005', 'Calle Las Azucenas 891', 2);
+select * from tb_Pedido
+------------------------------------------------------------------------------------------------------------
+insert tb_DetallePedido values (1, 1, 1, 1);
+insert tb_DetallePedido values (2, 4, 1, 2);
+insert tb_DetallePedido values (3, 7, 1, 3);
+insert tb_DetallePedido values (4, 10, 1, 4);
+insert tb_DetallePedido values (5, 11, 1, 5);
+select * from tb_DetallePedido
+----------------------------------------------------------------------------------------
+insert tb_TomaPedido values (1, 302);
+insert tb_TomaPedido values (2, 504);
+insert tb_TomaPedido values (3, 302);
+insert tb_TomaPedido values (4, 504);
+insert tb_TomaPedido values (5, 302);
+select * from tb_TomaPedido
+----------------------------------------------------------------------------------
+insert tb_Reserva values (1, 'Ricardo', 'Soto', '43756782', 'risotono@gmail.com', '943585576', '2022-09-05', '12:30:00', 5,  'Incluye 2 cajitas para niños', 1);
+insert tb_Reserva values (2, 'Rosa', 'Nolazco', '02453678','roosmery12@gmail.com', '966394654', '2022-08-04', '11:35:00', 7,  'Incluye botella de vino de cortesia', 2);
+insert tb_Reserva values (3, 'Mario', 'Gonzales', '46745638', 'profesormariog@gmail.com', '996155597', '2022-03-03', '14:36:00', 9,  'Ronda de Alitas BBQ de cortesia', 3);
+insert tb_Reserva values (4, 'Enrique', 'Segoviano', '37846324', 'kikesegoviano@gmail.com', '957889631', '2022-07-02', '15:37:00', 10,  'Torta de cumpleaños para el cliente', 1);
+insert tb_Reserva values (5, 'Jaime', 'Lertora', '73289364', 'jaimeler@gmail.com', '966595676', '2022-06-01', '16:39:00', 15,  'Giftcard de S/.50 regalo para el socio', 2);
+select * from tb_Reserva
+-----------------------------------------------------------------------------------------------------------
+insert tb_ComprobantePago values (1, 1, 1, 1, 49.90, 10.94, 60.80);
+insert tb_ComprobantePago values (2, 2, 2, 2, 31.00, 6.80, 37.80);
+select * from tb_ComprobantePago
+-----------------------------------------------------------------------------------------------------------------------------------------------------

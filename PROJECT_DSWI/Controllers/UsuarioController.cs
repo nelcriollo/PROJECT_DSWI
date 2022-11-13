@@ -10,15 +10,14 @@ using System.Configuration;
 
 using PROJECT_DSWI.DAO;
 using PROJECT_DSWI.DAO.DI;
-
-
+using ConfigurationManager = Microsoft.Extensions.Configuration.ConfigurationManager;
 
 namespace PROJECT_DSWI.Controllers
 {
     public class UsuarioController : Controller
 
     {
-        string cadena = ConfigurationManager.ConnectionStrings["cn"].ConnectionString;
+        /*string cadena = ConfigurationManager.ConnectionStrings["cn"].ConnectionString;
 
         // GET: Acceso
         public ActionResult Login()
@@ -37,7 +36,7 @@ namespace PROJECT_DSWI.Controllers
             bool registrado;
             string mensaje;
 
-            if (oUsuario.Clave != oUsuario.ConfirmarClave)
+            if (oUsuario.clave != oUsuario.ConfirmarClave)
             {
                 ViewData["Mensaje"] = "Contraseña no coinciden";
                 return View();
@@ -47,8 +46,8 @@ namespace PROJECT_DSWI.Controllers
             {
 
                 SqlCommand cmd = new SqlCommand("usp_insertar_usuario", cn);
-                cmd.Parameters.AddWithValue("Correo", oUsuario.Correo);
-                cmd.Parameters.AddWithValue("Clave", oUsuario.Clave);
+                cmd.Parameters.AddWithValue("Correo", oUsuario.correo);
+                cmd.Parameters.AddWithValue("Clave", oUsuario.clave);
                 cmd.Parameters.Add("Registro", SqlDbType.Bit).Direction = ParameterDirection.Output;
                 cmd.Parameters.Add("Mensaje", SqlDbType.VarChar, 50).Direction = ParameterDirection.Output;
                 cmd.CommandType = CommandType.StoredProcedure;
@@ -77,13 +76,13 @@ namespace PROJECT_DSWI.Controllers
         [HttpPost]
         public ActionResult Login(Usuario oUsuario)
         {
-            oUsuario.Clave = oUsuario.Clave;
+            oUsuario.clave = oUsuario.clave;
 
             using (SqlConnection cn = new SqlConnection(cadena))
             {
                 SqlCommand cmd = new SqlCommand("usp_validar_usuario", cn);
-                cmd.Parameters.AddWithValue("Correo", oUsuario.Correo);
-                cmd.Parameters.AddWithValue("Clave", oUsuario.Clave);
+                cmd.Parameters.AddWithValue("Correo", oUsuario.correo);
+                cmd.Parameters.AddWithValue("Clave", oUsuario.clave);
                 cmd.CommandType = CommandType.StoredProcedure;
 
                 cn.Open();
@@ -124,7 +123,7 @@ namespace PROJECT_DSWI.Controllers
 
             IEnumerable<Usuario> listUsu = _iusuarios.listarUsuarios();
             return View(listUsu);
-        }
+        }*/
 
     }
 }

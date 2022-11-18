@@ -1053,3 +1053,14 @@ C:\Users\franq\Desktop\PROYECTO_DSW1\PROJECT_DSWI\PROJECT_DSWI\obj\Debug\net6.0\
 C:\Users\franq\Desktop\PROYECTO_DSW1\PROJECT_DSWI\PROJECT_DSWI\obj\Debug\net6.0\PROJECT_DSWI.genruntimeconfig.cache
 C:\Users\franq\Desktop\PROYECTO_DSW1\PROJECT_DSWI\PROJECT_DSWI\obj\Debug\net6.0\ref\PROJECT_DSWI.dll
 >>>>>>> d726cf72f626697418dd2ef0329b2d518c7f0021
+C:\Users\Nelcriollo\Desktop\ServiciosWeb\PROJECT_DSWI\PROJECT_DSWI\obj\Debug\net6.0\PROJECT_DSWI.csproj.AssemblyReference.cache
+C:\Users\Nelcriollo\Desktop\ServiciosWeb\PROJECT_DSWI\PROJECT_DSWI\obj\Debug\net6.0\PROJECT_DSWI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nelcriollo\Desktop\ServiciosWeb\PROJECT_DSWI\PROJECT_DSWI\obj\Debug\net6.0\PROJECT_DSWI.AssemblyInfoInputs.cache
+C:\Users\Nelcriollo\Desktop\ServiciosWeb\PROJECT_DSWI\PROJECT_DSWI\obj\Debug\net6.0\PROJECT_DSWI.AssemblyInfo.cs
+C:\Users\Nelcriollo\Desktop\ServiciosWeb\PROJECT_DSWI\PROJECT_DSWI\obj\Debug\net6.0\PROJECT_DSWI.csproj.CoreCompileInputs.cache
+C:\Users\Nelcriollo\Desktop\ServiciosWeb\PROJECT_DSWI\PROJECT_DSWI\obj\Debug\net6.0\PROJECT_DSWI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Nelcriollo\Desktop\ServiciosWeb\PROJECT_DSWI\PROJECT_DSWI\obj\Debug\net6.0\PROJECT_DSWI.RazorAssemblyInfo.cache
+C:\Users\Nelcriollo\Desktop\ServiciosWeb\PROJECT_DSWI\PROJECT_DSWI\obj\Debug\net6.0\PROJECT_DSWI.RazorAssemblyInfo.cs
+C:\Users\Nelcriollo\Desktop\ServiciosWeb\PROJECT_DSWI\PROJECT_DSWI\obj\Debug\net6.0\PROJECT_DSWI.dll
+C:\Users\Nelcriollo\Desktop\ServiciosWeb\PROJECT_DSWI\PROJECT_DSWI\obj\Debug\net6.0\refint\PROJECT_DSWI.dll
+C:\Users\Nelcriollo\Desktop\ServiciosWeb\PROJECT_DSWI\PROJECT_DSWI\obj\Debug\net6.0\PROJECT_DSWI.pdb

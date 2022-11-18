@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alfre\\OneDrive\\Escritorio\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI.csproj": {}
+    "C:\\Users\\Nelcriollo\\Desktop\\ServiciosWeb\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alfre\\OneDrive\\Escritorio\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI.csproj": {
+    "C:\\Users\\Nelcriollo\\Desktop\\ServiciosWeb\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alfre\\OneDrive\\Escritorio\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI.csproj",
+        "projectUniqueName": "C:\\Users\\Nelcriollo\\Desktop\\ServiciosWeb\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI.csproj",
         "projectName": "PROJECT_DSWI",
-        "projectPath": "C:\\Users\\alfre\\OneDrive\\Escritorio\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI.csproj",
-        "packagesPath": "C:\\Users\\alfre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alfre\\OneDrive\\Escritorio\\PROJECT_DSWI\\PROJECT_DSWI\\obj\\",
+        "projectPath": "C:\\Users\\Nelcriollo\\Desktop\\ServiciosWeb\\PROJECT_DSWI\\PROJECT_DSWI\\PROJECT_DSWI.csproj",
+        "packagesPath": "C:\\Users\\Nelcriollo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nelcriollo\\Desktop\\ServiciosWeb\\PROJECT_DSWI\\PROJECT_DSWI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\alfre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Nelcriollo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

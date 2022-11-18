@@ -10,17 +10,17 @@ namespace PROJECT_DSWI.DAO
     {
         IEnumerable<Producto> IProducto.listarTodos()
         {
-
+            
             List<Producto> listaProd = new List<Producto>();
 
-            ConexionDAO cn = new ConexionDAO();
+            ConexionDAO cn =new ConexionDAO();
 
             using (cn.getcn)
             {
                 cn.getcn.Open();
                 try
                 {
-                    SqlCommand cmd = new SqlCommand("SELECT idProducto, nomProducto,descripcion,idCategoria,stock FROM tb_Producto", cn.getcn);
+                    SqlCommand cmd=new SqlCommand("SELECT idProducto, nomProducto,descripcion,idCategoria,stock FROM tb_Producto", cn.getcn);
 
                     SqlDataReader dr = cmd.ExecuteReader();
 
@@ -29,12 +29,12 @@ namespace PROJECT_DSWI.DAO
                         listaProd.Add(new Producto()
                         {
                             idProducto = dr.GetInt32(0),
-                            nomproducto = dr.GetString(1),
-                            descripcion = dr.GetString(2),
-                            idCategoria = dr.GetInt32(3),
-                            stock = dr.GetInt32(4),
+                            nomproducto=dr.GetString(1),
+                            descripcion=dr.GetString(2),
+                            idCategoria=dr.GetInt32(3),
+                            stock=dr.GetInt32(4),
 
-                        });
+                        }) ;
 
                     }
 
@@ -72,7 +72,7 @@ namespace PROJECT_DSWI.DAO
             }
             return mensaje;
         }
-
+    
 
         string IProducto.RegistrarProducto(Producto reg)
         {
@@ -99,5 +99,5 @@ namespace PROJECT_DSWI.DAO
             return mensaje;
         }
     }
-}
+    }
 

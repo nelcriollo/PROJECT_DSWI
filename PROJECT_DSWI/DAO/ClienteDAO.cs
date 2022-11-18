@@ -98,7 +98,6 @@ namespace PROJECT_DSWI.DAO
             return mensaje;
         }
 
-
    /*   string ICliente.BuscarCliente(int codigo)
         {
             throw new NotImplementedException();

@@ -2,7 +2,7 @@
 using System.Data;
 using PROJECT_DSWI.Models;
 using PROJECT_DSWI.DAO.DI;
-
+using Microsoft.DotNet.Scaffolding.Shared.Messaging;
 
 namespace PROJECT_DSWI.DAO
 
@@ -81,6 +81,7 @@ namespace PROJECT_DSWI.DAO
 
         string IUsuario.RegistrarUsuario(Usuario reg)
         {
+<<<<<<< HEAD
             string mensaje = "";
             ConexionDAO cn = new ConexionDAO();
             using (cn.getcn)
@@ -108,5 +109,31 @@ namespace PROJECT_DSWI.DAO
         }
     }
 
+=======
+            /* ConexionDAO cn = new ConexionDAO();
+              using (cn.getcn)
+              {    
+                  cn.getcn.Open();
+
+              try
+              {                        
+                  SqlCommand cmd = new SqlCommand("usp_insertar_usuario", cn.getcn);
+                  cmd.Parameters.AddWithValue("Correo", oUsuario.correo);
+                  cmd.Parameters.AddWithValue("Clave", oUsuario.clave);
+                  cmd.CommandType = CommandType.StoredProcedure;
+                  cmd.ExecuteNonQuery();
+              }
+              catch (Exception e)
+                  {
+                      .Message.
+                  }
+
+
+  }
+              }
+          }*/
+            throw new NotImplementedException();
+        }
+>>>>>>> 9380a1b (asdasd)
     }
 

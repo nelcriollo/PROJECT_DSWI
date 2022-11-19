@@ -10,14 +10,24 @@ using System.Configuration;
 
 using PROJECT_DSWI.DAO;
 using PROJECT_DSWI.DAO.DI;
+<<<<<<< HEAD
 using ConfigurationManager = Microsoft.Extensions.Configuration.ConfigurationManager;
+=======
+
+using ConfigurationManager = Microsoft.Extensions.Configuration.ConfigurationManager;
+using System.Data;
+>>>>>>> 9380a1b (asdasd)
 
 namespace PROJECT_DSWI.Controllers
 {
     public class UsuarioController : Controller
 
     {
+<<<<<<< HEAD
         /*string cadena = ConfigurationManager.ConnectionStrings["cn"].ConnectionString;
+=======
+        
+>>>>>>> 9380a1b (asdasd)
 
         // GET: Acceso
         public ActionResult Login()
@@ -33,6 +43,7 @@ namespace PROJECT_DSWI.Controllers
         [HttpPost]
         public ActionResult Registrar(Usuario oUsuario)
         {
+<<<<<<< HEAD
             bool registrado;
             string mensaje;
 
@@ -72,13 +83,19 @@ namespace PROJECT_DSWI.Controllers
             }
 
 
+=======
+            return View();
+>>>>>>> 9380a1b (asdasd)
         }
         [HttpPost]
         public ActionResult Login(Usuario oUsuario)
         {
+<<<<<<< HEAD
             oUsuario.clave = oUsuario.clave;
+=======
+           /* oUsuario.clave = oUsuario.clave;
+>>>>>>> 9380a1b (asdasd)
 
-            using (SqlConnection cn = new SqlConnection(cadena))
             {
                 SqlCommand cmd = new SqlCommand("usp_validar_usuario", cn);
                 cmd.Parameters.AddWithValue("Correo", oUsuario.correo);
@@ -99,9 +116,9 @@ namespace PROJECT_DSWI.Controllers
             {
                 ViewData["Mensaje"] = "Usuario no encontrado";
 
-                return View();
-            }
-
+                
+            }*/
+return View();
 
         }
 

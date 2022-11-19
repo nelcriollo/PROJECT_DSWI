@@ -2,56 +2,57 @@
 using System.Data;
 using PROJECT_DSWI.Models;
 using PROJECT_DSWI.DAO.DI;
-using Microsoft.DotNet.Scaffolding.Shared.Messaging;
+using Microsoft.AspNetCore.Mvc;
 
 namespace PROJECT_DSWI.DAO
-
 {
-    public class UsuarioDAO : IUsuario
+    public class UsuarioController: Controller
     {
-        IEnumerable<Usuario> IUsuario.listarUsuarios()
+        public class UsuarioDAO : IUsuario
         {
-
-            List<Usuario> listaUsua = new List<Usuario>();
-
-            ConexionDAO cn = new ConexionDAO();
-
-            using (cn.getcn)
+            IEnumerable<Usuario> IUsuario.listarUsuarios()
             {
-                cn.getcn.Open();
-                try
+
+                List<Usuario> listaUsua = new List<Usuario>();
+
+                ConexionDAO cn = new ConexionDAO();
+
+                using (cn.getcn)
                 {
-                    SqlCommand cmd = new SqlCommand("SELECT idUsuario, nombre,apellido,telefono,idTipoDocumento,documento,correo,clave FROM tb_Usuario", cn.getcn);
-
-                    SqlDataReader dr = cmd.ExecuteReader();
-
-                    while (dr.Read())
+                    cn.getcn.Open();
+                    try
                     {
-                        listaUsua.Add(new Usuario()
+                        SqlCommand cmd = new SqlCommand("SELECT idUsuario, nombre,apellido,telefono,idTipoDocumento,documento,correo,clave FROM tb_Usuario", cn.getcn);
+
+                        SqlDataReader dr = cmd.ExecuteReader();
+
+                        while (dr.Read())
                         {
-                            idUsuario = dr.GetInt32(0),
-                            nombre = dr.GetString(1),
-                            apellido = dr.GetString(2),
-                            telefono = dr.GetString(3),
-                            idTipoDocumento = dr.GetInt32(4),
-                            documento = dr.GetString(5),
-                            correo = dr.GetString(6),
-                            clave = dr.GetString(7),
+                            listaUsua.Add(new Usuario()
+                            {
+                                idUsuario = dr.GetInt32(0),
+                                nombre = dr.GetString(1),
+                                apellido = dr.GetString(2),
+                                telefono = dr.GetString(3),
+                                idTipoDocumento = dr.GetInt32(4),
+                                documento = dr.GetString(5),
+                                correo = dr.GetString(6),
+                                clave = dr.GetString(7),
 
-                        });
+                            });
 
+                        }
+                    }
+                    catch (Exception)
+                    {
+                        throw;
                     }
                 }
-                catch (Exception)
-                {
-                    throw;
-                }
+                return listaUsua;
             }
-            return listaUsua;
-        }
 
             string IUsuario.ActualizarUsuario(Usuario reg)
-        {
+            {
                 string mensaje = "";
                 ConexionDAO cn = new ConexionDAO();
                 using (cn.getcn)
@@ -77,63 +78,40 @@ namespace PROJECT_DSWI.DAO
                 }
                 return mensaje;
             }
-        
 
-        string IUsuario.RegistrarUsuario(Usuario reg)
-        {
-<<<<<<< HEAD
-            string mensaje = "";
-            ConexionDAO cn = new ConexionDAO();
-            using (cn.getcn)
+
+            string IUsuario.RegistrarUsuario(Usuario reg)
             {
-                cn.getcn.Open();
-                try
+
+                string mensaje = "";
+                ConexionDAO cn = new ConexionDAO();
+                using (cn.getcn)
                 {
-                    SqlCommand cmd = new SqlCommand(
-                        "exec usp_Registrar_Usuario @idUsuario, @nombre,@apellido,@telefono,@idTipoDocumento,@documento,@correo,@clave", cn.getcn);
-                    cmd.Parameters.AddWithValue("@idUsuario", reg.idUsuario);
-                    cmd.Parameters.AddWithValue("@nombre", reg.nombre);
-                    cmd.Parameters.AddWithValue("@apellido", reg.apellido);
-                    cmd.Parameters.AddWithValue("@telefono", reg.telefono);
-                    cmd.Parameters.AddWithValue("@idTipoDocumento", reg.idTipoDocumento);
-                    cmd.Parameters.AddWithValue("@documento", reg.documento);
-                    cmd.Parameters.AddWithValue("@correo", reg.correo);
-                    cmd.Parameters.AddWithValue("@clave", reg.clave);
-                    cmd.ExecuteNonQuery();
-                    mensaje = $"Se ha registrado el Usuario {reg.nombre}";
+                    cn.getcn.Open();
+                    try
+                    {
+                        SqlCommand cmd = new SqlCommand(
+                            "exec usp_Registrar_Usuario @idUsuario, @nombre,@apellido,@telefono,@idTipoDocumento,@documento,@correo,@clave", cn.getcn);
+                        cmd.Parameters.AddWithValue("@idUsuario", reg.idUsuario);
+                        cmd.Parameters.AddWithValue("@nombre", reg.nombre);
+                        cmd.Parameters.AddWithValue("@apellido", reg.apellido);
+                        cmd.Parameters.AddWithValue("@telefono", reg.telefono);
+                        cmd.Parameters.AddWithValue("@idTipoDocumento", reg.idTipoDocumento);
+                        cmd.Parameters.AddWithValue("@documento", reg.documento);
+                        cmd.Parameters.AddWithValue("@correo", reg.correo);
+                        cmd.Parameters.AddWithValue("@clave", reg.clave);
+                        cmd.ExecuteNonQuery();
+                        mensaje = $"Se ha registrado el Usuario {reg.nombre}";
+                    }
+                    catch (SqlException ex) { mensaje = ex.Message; }
+                    finally { cn.getcn.Close(); }
                 }
-                catch (SqlException ex) { mensaje = ex.Message; }
-                finally { cn.getcn.Close(); }
+                return mensaje;
             }
-            return mensaje;
         }
+
     }
+    
 
-=======
-            /* ConexionDAO cn = new ConexionDAO();
-              using (cn.getcn)
-              {    
-                  cn.getcn.Open();
-
-              try
-              {                        
-                  SqlCommand cmd = new SqlCommand("usp_insertar_usuario", cn.getcn);
-                  cmd.Parameters.AddWithValue("Correo", oUsuario.correo);
-                  cmd.Parameters.AddWithValue("Clave", oUsuario.clave);
-                  cmd.CommandType = CommandType.StoredProcedure;
-                  cmd.ExecuteNonQuery();
-              }
-              catch (Exception e)
-                  {
-                      .Message.
-                  }
-
-
-  }
-              }
-          }*/
-            throw new NotImplementedException();
-        }
->>>>>>> 9380a1b (asdasd)
-    }
+}
 

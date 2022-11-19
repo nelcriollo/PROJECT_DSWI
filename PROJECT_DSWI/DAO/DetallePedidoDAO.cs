@@ -5,43 +5,53 @@ using PROJECT_DSWI.DAO.DI;
 
 namespace PROJECT_DSWI.DAO
 {
-    public class DetallePedidoDAO : IDetallePedido
+    public class DetallePedidoDAO : ConexionDAO, IDetallePedido
     {
         IEnumerable<DetallePedido> IDetallePedido.listarDetallePedido()
         {
             List<DetallePedido> listaDetaPedido = new List<DetallePedido>();
 
-            ConexionDAO cn = new ConexionDAO();
-
-            using (cn.getcn)
+            using (SqlCommand cmd = new SqlCommand())
             {
-                cn.getcn.Open();
                 try
                 {
-                    SqlCommand cmd = new SqlCommand("SELECT idDetallePedido, idPedido,idProducto,cantidad,idPrecio", cn.getcn);
-
-                    SqlDataReader dr = cmd.ExecuteReader();
-
-                    while (dr.Read())
+                    using (cmd.Connection = getConexion())
                     {
-                        listaDetaPedido.Add(new DetallePedido()
+                        cmd.CommandText = "SELECT idDetallePedido, idPedido,idProducto,cantidad,idPrecio";
+                        cmd.CommandType = CommandType.Text;
+                        cmd.Connection.Open();
+                        using (SqlDataReader dr = cmd.ExecuteReader())
                         {
-                            idDetallePedido = dr.GetInt32(0),
-                            idPedido = dr.GetInt32(1),
-                            idProducto = dr.GetInt32(2),
-                            cantidad = dr.GetInt32(3),
-                            idPrecio = dr.GetInt32(4),
+                            while (dr.Read())
+                            {
+                                listaDetaPedido.Add(new DetallePedido()
+                                {
+                                    idDetallePedido = dr.GetInt32(0),
+                                    idPedido = dr.GetInt32(1),
+                                    idProducto = dr.GetInt32(2),
+                                    cantidad = dr.GetInt32(3),
+                                    idPrecio = dr.GetInt32(4),
 
-                        });
+                                });
 
-                    }    
+                            }
+                        }
+                    }
                 }
-                catch (Exception)
+                catch (Exception Ex)
                 {
-
-                    throw;
+                    throw Ex;
+                }
+                finally
+                {
+                    if (cmd.Connection.State == ConnectionState.Open)
+                    {
+                        cmd.Connection.Close();
+                    }
                 }
             }
+
+            
             return listaDetaPedido;
         }
 
@@ -49,23 +59,37 @@ namespace PROJECT_DSWI.DAO
         {
             string mensaje = "";
             ConexionDAO cn = new ConexionDAO();
-            using (cn.getcn)
+            using (SqlCommand cmd = new SqlCommand())
             {
-                cn.getcn.Open();
                 try
                 {
-                    SqlCommand cmd = new SqlCommand(
-                        "exec usp_DetallePedido_Actualizar  @idDetallePedido, @idPedido,@idProducto,@cantidad,@idPrecio", cn.getcn);
-                    cmd.Parameters.AddWithValue("@idcliente", reg.idDetallePedido);
-                    cmd.Parameters.AddWithValue("@idPedido", reg.idPedido);
-                    cmd.Parameters.AddWithValue("@idProducto", reg.idProducto);
-                    cmd.Parameters.AddWithValue("@cantidad", reg.cantidad);
-                    cmd.Parameters.AddWithValue("@idPrecio", reg.idPrecio);
-                    cmd.ExecuteNonQuery();
-                    mensaje = $"Se ha actualizar el detalle Pedido {reg.idPedido}";
+                    using (cmd.Connection = getConexion())
+                    {
+                        cmd.CommandText = "usp_DetallePedido_Actualizar";
+                        cmd.CommandType = CommandType.StoredProcedure;
+                        cmd.Parameters.Clear();
+                        cmd.Parameters.AddWithValue("@idcliente", reg.idDetallePedido);
+                        cmd.Parameters.AddWithValue("@idPedido", reg.idPedido);
+                        cmd.Parameters.AddWithValue("@idProducto", reg.idProducto);
+                        cmd.Parameters.AddWithValue("@cantidad", reg.cantidad);
+                        cmd.Parameters.AddWithValue("@idPrecio", reg.idPrecio);
+                        cmd.Connection.Open();
+                        cmd.ExecuteNonQuery();
+                        mensaje = $"Se ha actualizar el detalle Pedido {reg.idPedido}";
+                    }
+                     
                 }
-                catch (SqlException ex) { mensaje = ex.Message; }
-                finally { cn.getcn.Close(); }
+                catch (Exception Ex)
+                {
+                    throw Ex;
+                }
+                finally
+                {
+                    if (cmd.Connection.State == ConnectionState.Open)
+                    {
+                        cmd.Connection.Close();
+                    }
+                }
             }
             return mensaje;
         }
@@ -73,24 +97,36 @@ namespace PROJECT_DSWI.DAO
         string IDetallePedido.RegistrarDetallePedido(DetallePedido reg)
         {
             string mensaje = "";
-            ConexionDAO cn = new ConexionDAO();
-            using(cn.getcn)
+            using (SqlCommand cmd = new SqlCommand())
             {
-                cn.getcn.Open();
                 try
                 {
-                    SqlCommand cmd = new SqlCommand(
-                        "exec usp_DetallePedido_Registrar  @idDetallePedido, @idPedido,@idProducto,@cantidad,@idPrecio", cn.getcn);
-                    cmd.Parameters.AddWithValue("@idcliente", reg.idDetallePedido);
-                    cmd.Parameters.AddWithValue("@idPedido", reg.idPedido);
-                    cmd.Parameters.AddWithValue("@idProducto", reg.idProducto);
-                    cmd.Parameters.AddWithValue("@cantidad", reg.cantidad);
-                    cmd.Parameters.AddWithValue("@idPrecio", reg.idPrecio);
-                    cmd.ExecuteNonQuery();
-                    mensaje = $"Se ha registrado el detalle Pedido {reg.idPedido}";
+                    using (cmd.Connection = getConexion())
+                    {
+                        cmd.CommandText = "usp_DetallePedido_Registrar";
+                        cmd.CommandType = CommandType.StoredProcedure;
+                        cmd.Parameters.Clear();
+                        cmd.Parameters.AddWithValue("@idcliente", reg.idDetallePedido);
+                        cmd.Parameters.AddWithValue("@idPedido", reg.idPedido);
+                        cmd.Parameters.AddWithValue("@idProducto", reg.idProducto);
+                        cmd.Parameters.AddWithValue("@cantidad", reg.cantidad);
+                        cmd.Parameters.AddWithValue("@idPrecio", reg.idPrecio);
+                        cmd.Connection.Open();
+                        cmd.ExecuteNonQuery();
+                        mensaje = $"Se ha registrado el detalle Pedido {reg.idPedido}";
+                    }
                 }
-                catch(SqlException ex) { mensaje = ex.Message; }
-                finally { cn.getcn.Close(); }
+                catch (Exception Ex)
+                {
+                    throw Ex;
+                }
+                finally
+                {
+                    if (cmd.Connection.State == ConnectionState.Open)
+                    {
+                        cmd.Connection.Close();
+                    }
+                }
             }
             return mensaje;
         }

@@ -5,33 +5,36 @@ using PROJECT_DSWI.DAO.DI;
 
 namespace PROJECT_DSWI.DAO
 {
-    public class CategoriaDAO :ICategoria
+    public class CategoriaDAO : ConexionDAO, ICategoria
     {
 
         IEnumerable<Categoria> ICategoria.GetCategorias()
         {
 
             List<Categoria> listaCateg = new List<Categoria>();
-
-            ConexionDAO cn = new ConexionDAO();
-
-            using (cn.getcn)
+            using (SqlCommand cmd = new SqlCommand())
             {
-                cn.getcn.Open();
                 try
                 {
-                    SqlCommand cmd = new SqlCommand("SELECT idCategoria,nombre  FROM tb_Categoria", cn.getcn);
-
-                    SqlDataReader dr = cmd.ExecuteReader();
-
-                    while (dr.Read())
+                    using (cmd.Connection = getConexion())
                     {
-                        listaCateg.Add(new Categoria()
-                        {
-                            idCategoria = dr.GetInt32(0),
-                            nombre = dr.GetString(1),
+                    
+                        cmd.CommandText = "SELECT idCategoria,nombre  FROM tb_Categoria";
+                        cmd.CommandType = CommandType.Text;
+                        cmd.Connection.Open();
 
-                        });
+                        using (SqlDataReader dr = cmd.ExecuteReader())
+                        {
+                            while (dr.Read())
+                            {
+                                listaCateg.Add(new Categoria()
+                                {
+                                    idCategoria = dr.GetInt32(0),
+                                    nombre = dr.GetString(1),
+                                });
+
+                            }
+                        }
 
                     }
                 }
@@ -39,7 +42,15 @@ namespace PROJECT_DSWI.DAO
                 {
                     throw;
                 }
+                finally
+                {
+                    if (cmd.Connection.State == ConnectionState.Open)
+                    {
+                        cmd.Connection.Close();
+                    }
+                }
             }
+            
             return listaCateg;
         }
 

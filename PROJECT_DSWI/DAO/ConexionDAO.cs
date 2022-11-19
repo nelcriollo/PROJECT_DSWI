@@ -3,16 +3,25 @@ namespace PROJECT_DSWI.DAO
 {
     public class ConexionDAO
     {
+        private readonly IConfigurationRoot _config;
 
 
 
-        SqlConnection cn = new SqlConnection(@"server = LAPTOP-BB5T8A26\MSSQLSERVER01;database = SABORCRIOLLO;Trusted_Connection = True;" +
-        "MultipleActiveResultSets = True;TrustServerCertificate = False;Encrypt = False ");
-
-        // lectura de la conexion
-        public SqlConnection getcn
+        public ConexionDAO()
         {
-            get { return cn; }
+            _config = new ConfigurationBuilder()
+                    .SetBasePath(Directory.GetCurrentDirectory())
+                    .AddJsonFile("appsettings.json")
+                    .Build();
+        }
+
+        public SqlConnection getConexion()
+        {
+            SqlConnection con = new SqlConnection();
+            string cadena = "";
+            cadena = _config.GetConnectionString("conexion");
+            con.ConnectionString = (cadena);
+            return con;
         }
     }
 }

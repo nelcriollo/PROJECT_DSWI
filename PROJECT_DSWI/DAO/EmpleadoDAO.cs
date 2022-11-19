@@ -6,24 +6,25 @@ using PROJECT_DSWI.DAO;
 
 namespace PROJECT_DSWI.DAO
 {
-    public class EmpleadoDAO : IEmpleado 
+    public class EmpleadoDAO : ConexionDAO, IEmpleado 
     { 
         IEnumerable<Empleado> IEmpleado.listarEmpleado()
         {
 
             List<Empleado> listaEmplea = new List<Empleado>();
 
-            ConexionDAO cn = new ConexionDAO();
-
-                using (cn.getcn)
+            using (SqlCommand cmd = new SqlCommand())
+            {
+                try
                 {
-                    cn.getcn.Open();
-                    try
+                    using (cmd.Connection = getConexion())
                     {
-                        SqlCommand cmd = new SqlCommand("SELECT idEmpleado, nombre,apellido,correo,telefono,idTipoDocumento,documento,idCargo,cod_Ubigeo,direccion,idLocal FROM tb_Empleado", cn.getcn);
-
-                        SqlDataReader dr = cmd.ExecuteReader();
-
+                        cmd.CommandText = "SELECT idEmpleado, nombre,apellido,correo,telefono,idTipoDocumento,documento,idCargo,cod_Ubigeo,direccion,idLocal FROM tb_Empleado";
+                        cmd.CommandType = CommandType.Text;
+                        cmd.Parameters.Clear();
+                        cmd.Connection.Open();
+                        using (SqlDataReader dr = cmd.ExecuteReader())
+                        {
                             while (dr.Read())
                             {
                                 listaEmplea.Add(new Empleado()
@@ -38,80 +39,117 @@ namespace PROJECT_DSWI.DAO
                                     idCargo = dr.GetInt32(7),
                                     cod_Ubigeo = dr.GetString(8),
                                     direccion = dr.GetString(9),
-                                    idLocal= dr.GetInt32(10),
+                                    idLocal = dr.GetInt32(10),
                                 });
-
+                            }
+                        }
                     }
                 }
-                catch (Exception)
+                catch (Exception Ex)
                 {
-                    throw;
+                    throw Ex;
+                }
+                finally
+                {
+                    if (cmd.Connection.State == ConnectionState.Open)
+                    {
+                        cmd.Connection.Close();
+                    }
                 }
             }
+
             return listaEmplea;
         }
 
         string IEmpleado.ActualizarEmpleado(Empleado reg)
+        {
+            string mensaje = "";
+            using (SqlCommand cmd = new SqlCommand())
+            {
+                try
                 {
-                    string mensaje = "";
-                    ConexionDAO cn = new ConexionDAO();
-                    using (cn.getcn)
+                    using (cmd.Connection = getConexion())
                     {
-                        cn.getcn.Open();
-                        try
+                        cmd.CommandText = "usp_Actualizar_Empleado";
+                        cmd.CommandType = CommandType.StoredProcedure;
+                        cmd.Parameters.Clear();
+                        cmd.Parameters.AddWithValue("@idEmpleado", reg.idEmpleado);
+                        cmd.Parameters.AddWithValue("@nombre", reg.nombre);
+                        cmd.Parameters.AddWithValue("@apellido", reg.apellido);
+                        cmd.Parameters.AddWithValue("@correo", reg.correo);
+                        cmd.Parameters.AddWithValue("@telefono", reg.telefono);
+                        cmd.Parameters.AddWithValue("@idTipoDocumento", reg.idTipoDocumento);
+                        cmd.Parameters.AddWithValue("@documento", reg.documento);
+                        cmd.Parameters.AddWithValue("@idCargo", reg.idCargo);
+                        cmd.Parameters.AddWithValue("@cod_Ubigeo", reg.cod_Ubigeo);
+                        cmd.Parameters.AddWithValue("@direccion", reg.direccion);
+                        cmd.Parameters.AddWithValue("@idLocal", reg.idLocal);
+                        cmd.Connection.Open();
+                        int resp = cmd.ExecuteNonQuery();
+                        if (resp == -1)
                         {
-                            SqlCommand cmd = new SqlCommand(
-                                "exec usp_Actualizar_Empleado @idEmpleado, @nombre,@apellido,@correo,@telefono,@idTipoDocumento,@documento,@idCargo,@cod_Ubigeo,@direccion,@idLocal", cn.getcn);
-                            cmd.Parameters.AddWithValue("@idEmpleado", reg.idEmpleado);
-                            cmd.Parameters.AddWithValue("@nombre", reg.nombre);
-                            cmd.Parameters.AddWithValue("@apellido", reg.apellido);
-                            cmd.Parameters.AddWithValue("@correo", reg.correo);
-                            cmd.Parameters.AddWithValue("@telefono", reg.telefono);
-                            cmd.Parameters.AddWithValue("@idTipoDocumento", reg.idTipoDocumento);
-                            cmd.Parameters.AddWithValue("@documento", reg.documento);
-                            cmd.Parameters.AddWithValue("@idCargo", reg.idCargo);
-                            cmd.Parameters.AddWithValue("@cod_Ubigeo", reg.cod_Ubigeo);
-                            cmd.Parameters.AddWithValue("@direccion", reg.direccion);
-                            cmd.Parameters.AddWithValue("@idLocal", reg.idLocal);
-
-                            cmd.ExecuteNonQuery();
+                            mensaje = $"No se actualizaron los datos {reg.nombre}";
+                        }
+                        else {
                             mensaje = $"Se ha actualizar el Empleado {reg.nombre}";
                         }
-                        catch (SqlException ex) { mensaje = ex.Message; }
-                        finally { cn.getcn.Close(); }
+                        
                     }
-                    return mensaje;
                 }
-
+                catch (Exception Ex)
+                {
+                    throw Ex;
+                }
+                finally
+                {
+                    if (cmd.Connection.State == ConnectionState.Open)
+                    {
+                        cmd.Connection.Close();
+                    }
+                }
+            }
+            return mensaje;
+        }
 
         string IEmpleado.RegistrarEmpleado(Empleado reg)
          {
             string mensaje = "";
-            ConexionDAO cn = new ConexionDAO();
-            using (cn.getcn)
-         {
-                cn.getcn.Open();
+            using (SqlCommand cmd = new SqlCommand())
+            {
                 try
                 {
-                    SqlCommand cmd = new SqlCommand(
-                        "exec usp_Registrar_Empleado @idEmpleado, @nombre,@apellido,@correo,@telefono,@idTipoDocumento,@documento,@idCargo,@cod_Ubigeo,@direccion,@idLocal", cn.getcn);
-                    cmd.Parameters.AddWithValue("@idEmpleado", reg.idEmpleado);
-                    cmd.Parameters.AddWithValue("@nombre", reg.nombre);
-                    cmd.Parameters.AddWithValue("@apellido", reg.apellido);
-                    cmd.Parameters.AddWithValue("@correo", reg.correo);
-                    cmd.Parameters.AddWithValue("@telefono", reg.telefono);
-                    cmd.Parameters.AddWithValue("@idTipoDocumento", reg.idTipoDocumento);
-                    cmd.Parameters.AddWithValue("@documento", reg.documento);
-                    cmd.Parameters.AddWithValue("@idCargo", reg.idCargo);
-                    cmd.Parameters.AddWithValue("@cod_Ubigeo", reg.cod_Ubigeo);
-                    cmd.Parameters.AddWithValue("@direccion", reg.direccion);
-                    cmd.Parameters.AddWithValue("@idLocal", reg.idLocal);
-
-                    cmd.ExecuteNonQuery();
-                    mensaje = $"Se ha registrado el Empleado {reg.nombre}";
+                    using (cmd.Connection = getConexion())
+                    {
+                        cmd.CommandText = "usp_Registrar_Empleado";
+                        cmd.CommandType = CommandType.StoredProcedure;
+                        cmd.Parameters.Clear();
+                        cmd.Parameters.AddWithValue("@idEmpleado", reg.idEmpleado);
+                        cmd.Parameters.AddWithValue("@nombre", reg.nombre);
+                        cmd.Parameters.AddWithValue("@apellido", reg.apellido);
+                        cmd.Parameters.AddWithValue("@correo", reg.correo);
+                        cmd.Parameters.AddWithValue("@telefono", reg.telefono);
+                        cmd.Parameters.AddWithValue("@idTipoDocumento", reg.idTipoDocumento);
+                        cmd.Parameters.AddWithValue("@documento", reg.documento);
+                        cmd.Parameters.AddWithValue("@idCargo", reg.idCargo);
+                        cmd.Parameters.AddWithValue("@cod_Ubigeo", reg.cod_Ubigeo);
+                        cmd.Parameters.AddWithValue("@direccion", reg.direccion);
+                        cmd.Parameters.AddWithValue("@idLocal", reg.idLocal);
+                        cmd.Connection.Open();
+                        cmd.ExecuteNonQuery();
+                        mensaje = $"Se ha registrado el Empleado {reg.nombre}";
+                    }
                 }
-                catch (SqlException ex) { mensaje = ex.Message; }
-                finally { cn.getcn.Close(); }
+                catch (Exception Ex)
+                {
+                    throw Ex;
+                }
+                finally
+                {
+                    if (cmd.Connection.State == ConnectionState.Open)
+                    {
+                        cmd.Connection.Close();
+                    }
+                }
             }
             return mensaje;
         }

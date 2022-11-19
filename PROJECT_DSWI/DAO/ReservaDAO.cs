@@ -5,7 +5,7 @@ using PROJECT_DSWI.DAO.DI;
 
 namespace PROJECT_DSWI.DAO
 {
-    public class ReservaDAO : IReserva
+    public class ReservaDAO : ConexionDAO, IReserva
     {
         public IEnumerable<Reserva> listarReservaCliente(string doc)
         {
@@ -15,20 +15,6 @@ namespace PROJECT_DSWI.DAO
         public string RegistrarReserva(Reserva reg)
         {
             string mensaje = "";
-            ConexionDAO cn = new ConexionDAO();
-            using (cn.getcn) 
-            {
-                cn.getcn.Open();
-                try
-                {
-                    SqlCommand cmc = new SqlCommand();
-                }
-                catch (SqlException ex)
-                {
-                    mensaje = ex.Message;
-                }
-                finally { cn.getcn.Close(); }
-            }
             return mensaje;
         }
     }

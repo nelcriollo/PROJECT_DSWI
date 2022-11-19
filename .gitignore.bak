@@ -5,3 +5,10 @@
 .vs/ProjectEvaluation/project_dswi.metadata.v5.1
 .vs/ProjectEvaluation/project_dswi.projects.v5.1
 .vs/PROJECT_DSWI/v17/.suo
+
+*.suo
+*.user
+_ReSharper.*
+bin
+obj
+packages
